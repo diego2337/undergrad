@@ -1,0 +1,23 @@
+int main(void){
+int v[10];
+int i;
+for (i=0;i<10;i++)
+v[i] = i*i;
+for (i=0;i<10;i++)
+printf("%d\n",v[i]);
+}
+#
+int main(void {
+printf("HelloW!! To manjando esse negocio aqui ");
+}
+#
+int main(void) {
+printf("HelloW!! To manjando esse negocio aqui ");
+#
+int main(void) {
+int v[3] = {1,2,3};
+printf("HelloW!! To manjando esse negocio aqui ");
+}
+#
+
+

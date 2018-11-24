@@ -1,0 +1,72 @@
+// Programa: mergesort.c
+// Programador: Diego Cintra
+// Data: 30/11/2012
+// O dialogo: Esse programa ira fazer a ordenacao de vetores por meio do insertion sort, imprimindo o vetor ordenado em ordem decrescente.
+#include<stdio.h>
+void intercala(int p, int q, int r, int V[]);
+void mergesort(int p, int r, int V[])
+{
+	int q;
+	if(p < r-1)
+	{
+		q = (p+r)/2;
+		mergesort(p, q, V);
+		mergesort(q, r, V);
+		intercala(p, q, r, V);
+	}
+}
+
+void intercala(int p, int q, int r, int V[])
+{
+	int i, j, k, W[100];
+	i = p;
+	j = q;
+	k = 0;
+	while(i < q && j < r)
+	{
+		if(V[i] < V[j])
+		{
+			W[k] = V[i];
+			i++;
+		}
+		else
+		{
+			W[k] = V[j];
+			j++;
+		}
+		k++;
+	}
+	while(j < r)
+	{
+		W[k] = V[j];
+		j++;
+		k++;
+	}
+	while(i < q)
+	{
+		W[k] = V[i];
+		i++;
+		k++;
+	}
+	for(i = p; i < r; i++)
+	V[i] = W[i-p];
+}
+int main(void)
+{
+	int V[100], n, i, j, rep, p=0;
+	scanf("%d", &rep);
+	for(i = 0; i < rep; i++)
+	{
+		scanf("%d", &n);
+		for(j = 0; j < n; j++)
+		scanf("%d", &V[j]);
+
+		mergesort(p, n, V);
+
+		for(j = 0; j < n; j++){
+		printf("%d ", V[j]);
+		}
+		printf("\n");
+	}
+	return 0;
+}

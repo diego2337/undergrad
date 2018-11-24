@@ -1,0 +1,109 @@
+begin:
+	int opcao, tipo;
+	char opcao2, nome;
+	printf("#-----------------------#-------------------------#\n\n");
+	printf("Bem-vindo ao hotel Paçoca. Escolha o que deseja:\n");
+	printf("Realizar Check-in: 1\n");
+	printf("Procurar por um hóspede: 2\n");
+	printf("Realizar Check-out: 3\n");
+	printf("Procurar por quartos disponíveis: 4\n");
+	scanf("%d", &opcao);
+	if(opcao == 1)
+	{
+		printf("Digite seu primeiro nome e o tipo de quarto que deseja se hospedar.\n");
+		scanf("%c %d", &nome, &tipo);
+		checkin(argc, argv[]);
+	}
+	else if(opcao == 2)
+	{
+		pesquisar(argc, argv[]);
+	}
+	else if(opcao == 3)
+	{
+		checkout();
+	}
+	else
+	{
+		printf("Comando inválido.\n");
+		goto begin;
+	}
+		printf("Operação realizada com sucesso. Deseja mais alguma coisa? 'y' para sim ou 'n' para não.\n");
+		scanf("%c", &opcao2);
+		if(opcao2 == 'y');
+		goto begin;
+		else if(opcao2 == 'n')
+		{
+			system(pause);
+			exit(0);
+		}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	while(esq <= dir)
+	{
+		meio = (esq+dir)/2;
+		if(strcmp(&nameroom, &aux2[meio].nompess) == 0)
+		{
+			return meio;
+		}
+		else if(strcmp(&nameroom, &aux2[meio].nompess) > 0)
+		{
+			esq = meio + 1;
+		}
+		else
+		{
+			dir = meio - 1;
+		}
+	}
+	return -1;
+
+
+
+
+
+
+
+	if(type == 2)
+		{
+			counter = 11;
+			printf("hey ho lets go\n");
+			if(size == 0)
+			{
+				desocupado = 1;
+				counter = 11;
+			}
+			for(i = 11; i < 15 && desocupado == 0; i++)
+			{
+					printf("hey ho lets go1\n");
+				if(fscanf(quartos, "%d %d\n", &numquarto, &index) == counter)
+				{
+						printf("hey ho lets go2\n");
+					counter++;
+				}
+				else if(fscanf(quartos, "%d", &numquarto) > 15)
+				{
+					counter = 15;
+				}
+				else if(fscanf(quartos, "%d", &numquarto) != counter)
+				{
+						printf("hey ho lets go3\n");
+					desocupado = 1;
+				}	
+			}
+			if(desocupado == 1)
+			{
+				cadastro(checkin, counter, type, date, name);
+			}
+		}

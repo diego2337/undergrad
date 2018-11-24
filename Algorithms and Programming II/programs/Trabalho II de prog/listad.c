@@ -1,0 +1,108 @@
+/* Programa: listad.c
+Programadores: Diego Cintra e Rogerio Sandim
+Data: 11 de março de 2013
+O dialogo: Esse programa e uma lista encadeada dinamicamente, com funcoes insere, remove e busca. */
+#include "listad.h"
+void init(Lista *L)
+{
+	*L = NULL;
+}
+int cmp(tipo a, tipo b)
+{
+	return strcmp(a.placa, b.placa);
+}
+int insere(Lista *L, tipo val)
+{
+	Lista aux, atual, ant;
+	int ret = 1;
+	aux = (tlista*)malloc(sizeof(tlista));
+	if(aux == NULL)
+	{
+		ret = 0;
+	}
+	aux->val = val;
+	if(*L == NULL)
+	{
+		*L = aux;
+		aux->prox = NULL;
+	}
+	else
+	{
+		atual = *L;
+		if(cmp(val, atual->val) < 0)
+		{
+			aux->prox = atual;
+			*L = aux;
+		}
+		else
+		{
+			ant = atual;
+			atual = atual->prox;
+			while(atual != NULL && (cmp(val, atual->val) > 0))
+			{
+				ant = atual;
+				atual = atual->prox;
+			}
+			aux->prox = atual;
+			ant->prox = aux;
+		}
+	}
+	return ret;
+}
+
+int remover(Lista *L, tipo val)
+{
+	Lista atual, ant, aux;
+	int ret = 1;
+	if(*L == NULL)
+	{
+		ret = 0;	
+	}
+	atual = *L;
+	if(cmp(val, atual->val) == 0)
+	{
+		aux = atual;
+		*L = atual->prox;
+		free(atual);
+		ret = 1;
+	}
+	else
+	{
+		ant = atual;
+		atual = atual->prox;
+		while(atual != NULL && cmp(val, atual->val) != 0)
+		{
+			ant = atual;
+			atual = atual->prox;
+		}
+		if(atual != NULL)
+		{
+			aux = atual;
+			ant->prox = atual->prox;
+			free(aux);
+			ret = 1;
+		}
+	}
+	return ret;
+}
+
+int busca(Lista *L, tipo val, void *pont)
+{
+	Lista atual;
+	int ret = 0;
+	atual = *L;
+	while(atual != NULL && cmp(val, atual->val) != 0)
+	{
+		atual = atual->prox;
+	}
+	if(atual == NULL)
+	{
+		return ret = 0;
+	}
+	if(cmp(val, atual->val) == 0)
+	{
+		*((tlista **)pont) = atual;
+		ret = 1;
+	}
+	return ret;
+}

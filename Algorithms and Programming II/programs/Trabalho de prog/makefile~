@@ -1,0 +1,19 @@
+CC=gcc
+CFLAGS=-I.
+DEPS = hotel.h
+OBJ = pesquisar.o checkin.o listar_quartos.o checkout.o 
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+pesquisar: $(OBJ)
+	gcc -o $@ $^ $(CFLAGS)
+
+checkin: $(OBJ)
+	gcc -o $@ $^ $(CFLAGS)
+
+listar_quartos: $(OBJ)
+	gcc -o $@ $^ $(CFLAGS)
+
+checkout: $(OBJ)
+	gcc -o $@ $^ $(CFLAGS)

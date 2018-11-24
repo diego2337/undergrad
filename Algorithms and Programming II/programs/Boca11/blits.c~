@@ -1,0 +1,168 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#define HSIZE 300
+
+typedef struct{
+	char placa[8];
+	int ano;
+	char marca[10];
+	char modelo[15];
+	char estado[3];
+}tipo;
+
+typedef struct _tlista{
+	tipo val;
+	struct _tlista *prox;
+}tlista;
+
+typedef tlista *Hash[HSIZE];
+
+void init(Hash *L)
+{
+	int i;
+	for(i = 0; i < HSIZE; i++)
+	{
+		(*L)[i] = NULL;
+	}
+}
+int hash(tipo val)
+{
+	long long int hash = 3;
+	int i;
+	for(i = 0; i < 7; i++)
+	{
+		hash = 33*hash + val.placa[i];
+	}
+	return hash%HSIZE;
+}
+
+int cmp(tipo a, tipo b)
+{
+	return strcmp(a.placa, b.placa);
+}
+
+int inserir(Hash *L, tipo val)
+{
+	int i;
+	i = hash(val);
+	int ret;
+	ret = 1;
+	tlista *aux;
+	aux = (tlista*)malloc (sizeof(tlista));
+	if(aux == NULL)
+	{
+		ret = 0;
+	}
+	else
+	{
+		aux->val = val;
+		if((*L)[i] == NULL)
+		{
+			aux->prox = NULL;
+		}
+		else
+		{
+			aux->prox = (*L)[i];
+		}
+		(*L)[i] = aux;
+	}
+	return ret;
+}
+
+int remover(Hash *L, tipo val)
+{
+	int ret;
+	ret = 0;
+	int i;
+	i = hash(val);
+	tlista *atual;
+	tlista *ant;
+	tlista *aux;
+	atual = (*L)[i];
+	if(atual == NULL)
+	{
+		ret = 0;
+	}
+	else
+	{
+		if(cmp(atual->val, val) == 0)
+		{
+			aux = atual;
+			(*L)[i] = atual->prox;
+			free(aux);
+			ret = 1;
+		}
+		else
+		{
+			ant = atual;
+			atual = atual->prox;
+			while(atual != NULL && cmp(atual->val, val) != 0)
+			{
+				ant = atual;
+				atual = atual->prox;
+			}
+			if(atual != NULL)
+			{
+				aux = atual;
+				ant->prox = atual->prox;
+				free(aux);
+				ret = 1;
+			}
+		}
+	}
+	return ret;
+}
+
+int busca(Hash *L, tipo val, void *pont)
+{
+	int i;
+	i = hash(val);
+	int ret;
+	ret = 0;
+	tlista *aux;
+	aux = (*L)[i];
+	while(aux != NULL && cmp(aux->val, val) != 0)
+	{
+		aux = aux->prox;
+	}
+	if(cmp(aux->val, val) == 0)
+	{
+		*((tlista**)pont) = aux;
+		ret = 1;
+	}
+	return ret;
+}
+
+int main(void)
+{
+	char report;
+	Hash L;
+	tipo *ptr;
+	init(&L);
+	ptr = (tipo*) malloc(sizeof(tipo));
+	while(scanf("%c", &report) != EOF && report > 96)
+	{
+		if(report == 'r')
+		{
+			/*informacoes do carro*/
+			scanf("%s", ptr->placa);
+			scanf("%d", &ptr->ano);
+			scanf("%s", ptr->marca);
+			scanf("%s", ptr->modelo);
+			scanf("%s", ptr->estado);
+			inserir(&L, ptr);
+		}
+		else if(report == 'a')
+		{
+			scanf("%s", ptr->placa);
+			remover(&L, ptr);
+		}
+		else if(report == 'c')
+		{
+			scanf("%s", ptr->placa);
+			busca(&L, ptr);
+		}
+	}
+	return 0;
+}

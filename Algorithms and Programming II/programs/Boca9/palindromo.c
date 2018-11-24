@@ -1,0 +1,81 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+typedef char tipo;
+typedef struct _pilha
+{
+    tipo val;
+    struct _pilha * prox;
+}tpilha;
+typedef tpilha * pilha;
+void init(pilha * stack)
+{
+    *stack = NULL;
+}
+
+void empilha(pilha * stack, tipo val)
+{
+    tpilha  * p;
+    p = (tpilha *)malloc(sizeof(tpilha));
+    if ( p== NULL){
+        printf("ERRO! Memoria cheia!\n");
+        exit(EXIT_FAILURE);
+    }
+    p->val = val;
+    p->prox = *stack;
+    *stack = p;
+}
+
+tipo desempilha(pilha * stack)
+{
+    tipo v;
+    pilha t;
+    t = *stack;
+    if (t==NULL){
+       printf("Pilha Vazia\n");
+       exit(EXIT_FAILURE);
+    }
+    v = t->val;
+    *stack = t->prox;
+    free(t);
+    return v;
+}
+
+int empty(pilha * stack)
+{
+    int ret = 0;
+    if (*stack == NULL)
+        ret = 1;
+    return ret;
+}
+
+int main(void)
+{
+	char palavra[30], paux[30];
+	int i, m = 1;
+	pilha p;
+	while(scanf("%s", palavra) == 1)
+	{
+		init(&p);
+		m = 1;
+		for(i = 0; i < strlen(palavra); i++)
+		{
+			empilha(&p, palavra[i]);
+		}
+		for(i = 0; i < strlen(palavra); i++)
+		{
+			paux[i] = desempilha(&p);
+			if(paux[i] != palavra[i])
+			{
+				m = 0;
+			}
+		}	
+		paux[strlen(palavra)] = '\0';
+		if(m == 1)
+		printf("yes %s %s\n", palavra, paux);
+		else
+		printf("nop %s %s\n", palavra, paux);
+	}
+	return 0;
+}

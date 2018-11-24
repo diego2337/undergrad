@@ -1,0 +1,34 @@
+#include <stdio.h>
+// Programa: 3n1.c
+// Programador: Diego Cintra
+// Data: 09/11/2012
+// O dialogo: Esse programa ira calcular uma sequencia de numeros, alternando da operacao num / 2, caso seja par, e num * 3 + 1 caso seja impar, ate chegar em 1.
+int f(int num)
+{
+    	if(num != 1)
+	{
+	        if(num % 2 == 1)
+		{
+	        	num = (num * 3) + 1;
+			f(num);
+       		}
+        	else
+		{
+        	    num = num / 2;
+        	    f(num);
+        	}
+        	printf("%d ", num);
+	}
+}
+int main(void)
+{
+	int i, n, num;
+    	scanf("%d", &n);
+        for(i = 0; i < n; i++)
+	{
+                scanf("%d", &num);
+                f(num);
+                printf("%d \n", num);
+        }
+    return 0;
+}

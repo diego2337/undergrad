@@ -1,0 +1,17 @@
+Alunos: Diego Cintra e Rogerio Sandim
+Tempo ocupado pelo programa para executar as tarefas requisitadas:
+
+Utilizando hash:
+roubados.txt : Time elapsed: 72.4
+apreendidos.txt: Time elapsed: 55.1
+consulta.txt: Time elapsed: 59.6
+Utilizando lista dinamica:
+roubados.txt: Time elapsed: Desconhecido
+apreendidos.txt: Time elapsed: Desconhecido
+consulta.txt: Time elapsed: Desconhecido
+Utilizando lista estatica:
+roubados.txt: Time elapsed: Desconhecido
+apreendidos.txt: Time elapsed: Desconhecido
+consulta.txt: Time elapsed: Desconhecido
+
+Conclusao: Concluimos que a utilizaçao da funçao "hash" e a mais efetiva quando a quantidade de entradas for muito grande.

@@ -1,0 +1,77 @@
+#include<stdio.h>
+
+int pai(int i)
+{
+	int r;
+	if(i == 0)
+	r = 0;
+	else
+	r = (i-1)/2;
+	return r;
+}
+int esq(int i)
+{
+	return (2*(i+1)-1);
+}
+int dir(int i)
+{
+	return (2*(i+1));
+}
+void desce(int n, int vet[], int i)
+{
+	int e, d, maior, aux;
+	e = esq(i);
+	d = dir(i);
+	maior = i;
+	if(e < n && vet[e] > vet[maior])
+	maior = e;
+	if(d < n && vet[d] > vet[maior])
+	maior = d;
+	if(i != maior)
+	{
+		aux = vet[maior];
+		vet[maior] = vet[i];
+		vet[i] = aux;
+		desce(n, vet, maior);
+	}
+}
+void cheap(int n, int vet[])
+{
+	int i;
+	i = pai(n-1);
+	while(i >= 0)
+	{
+		desce(n, vet, i);
+		i--;
+	}
+}
+void heapsort(int n, int vet[])
+{
+	int i, aux;
+	cheap(n, vet);
+	i = n-1;
+	while(i > 0)
+	{
+		aux = vet[0];
+		vet[0] = vet[i];
+		vet[i] = aux;
+		desce(n, vet, 0);
+		i--;
+	}
+}
+int main(void)
+{
+	int i, j, n, rep, vet[100];
+	scanf("%d", &rep);
+	for(i = 0; i < rep; i++)
+	{
+		scanf("%d", &n);
+		for(j = 0; j < n; j++)
+		scanf("%d", &vet[j]);
+		heapsort(n, vet);
+		for(j = 0; j < n; j++)
+		printf("%d ", vet[j]);
+		printf("\n");
+	}
+	return 0;
+}

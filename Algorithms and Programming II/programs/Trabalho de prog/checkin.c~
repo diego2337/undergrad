@@ -1,0 +1,103 @@
+// Programa: checkin.c
+// Programador: Diego Cintra
+// Data: 04/03/2013
+// O dialogo: Esse programa ira realizar um check-in de uma pessoa em um serviço de hotel (funcionando em conjunto com o programa hotel.c), armazenando a estadia desta pessoa em nomes.txt, quartos.txt e hotel.bin.
+
+#include "hotel.h"
+
+int checkin(char name[200], char date[20], int type);
+int main(int argc, char **argv)
+{
+	int results;
+	results = checkin(argv[1], argv[2], atoi(argv[3]));
+	if(results == 1)
+	printf("Check-in realizado com sucesso.\n");
+	else
+	printf("Não há quartos vagos.\n");
+	return 0;
+}
+int checkin(char name[200], char date[20], int type)
+{
+	//FILE *nomes;
+	FILE *quartos;
+	quarto checkin;
+	int counter, numquarto, index, size;
+	int desocupado = 0;
+	int results = 0;
+	quartos = fopen("quartos.txt", "a+b");
+		fseek(quartos, 0, SEEK_END); 
+		size = ftell(quartos);
+		rewind(quartos);
+	
+		if(type == 1)
+		{
+			counter = 1;
+			// como quartos.txt ira ser ordenado, o metodo mais eficaz e iniciar um contador em 1 e verificar os quartos. Se o quarto tiver um valor igual ao de 1, entao ele ja esta ocupado; Senao, sendo esse quarto maior que o counter, entao ele estara vazio e pode ser ocupado.
+			// verificando se o .txt esta vazio
+			if(size == 0)
+			{
+				desocupado = 1;
+				counter = 1;
+			}
+			while(counter <= 10 && desocupado == 0)
+			{
+				fscanf(quartos, "%d %d\n", &numquarto, &index);
+				if(numquarto == counter)
+				{
+					counter++;
+				}
+				else if(numquarto > 10 && counter > 10)
+				{
+					counter = 10;
+				}
+				else if(numquarto != counter)
+				{
+					desocupado = 1;
+				}	
+			}
+			if(desocupado == 1)
+			{		
+				cadastro(checkin, counter, type, date, name);
+			}
+		}	
+
+		
+		// Se o tipo for 2
+		if(type == 2)
+		{
+			counter = 11;
+			if(size == 0)
+				{
+					desocupado = 1;
+					counter = 11;
+				}
+			while(counter <= 15 && desocupado == 0)
+			{
+				// verificando se o .txt esta vazio
+				fscanf(quartos, "%d %d\n", &numquarto, &index);
+				if(numquarto == counter)
+				{
+					counter++;
+				}
+				else if(numquarto > 15 && counter > 15)
+				{
+					counter = 15;
+				}
+				else if(numquarto < counter)
+				{
+					numquarto = numquarto + counter;
+				}
+				else if(numquarto > counter)
+				{
+					desocupado = 1;
+				}
+			}
+			
+			if(desocupado == 1)
+			{
+				cadastro(checkin, counter, type, date, name);
+				results = 1;
+			}
+		}
+		return results;
+}

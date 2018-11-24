@@ -1,0 +1,80 @@
+// Programa: pesquisar.c
+// Programador: Diego Cintra
+// Data: 06/02/2013
+// O dialogo: Esse programa ira fazer uma busca binaria do nome ou do quarto requisitado.
+
+#include "hotel.h"
+
+int pesquisar(char type2[10], char nameroom[200]);
+int main(int argc, char **argv)
+{
+	int results;
+	results = pesquisar(argv[1], argv[2]);
+	if(results == -1)
+	printf("O quarto/nome não foi encontrado.\n");
+	return results;
+}
+int pesquisar(char type2[10], char nameroom[200])
+{
+	int ret = 0, counter = 0, counter2 = 0, num, bin;
+	qtxt aux[20];
+	ntxt aux2[50];
+	quarto pesquisa;
+	FILE *quartos;
+	FILE *nomes;
+	FILE *hotelbin;
+	//printf("%s\n", nameroom);
+	if(strcmp(type2, "pessoa") == 0)
+	{
+		//printf("hey ho lets go1\n");
+		nomes = fopen("nomes.txt", "r");
+		rewind(nomes);
+		while(!feof(nomes))
+		{
+			fscanf(nomes, "%s %d\n", aux2[counter2].nompess, &aux2[counter2].index3);
+			counter2++;
+		}
+		ret = bbinstring(nameroom, counter2, aux2, &bin);
+		fclose(nomes);
+		if(ret != -1)
+		{
+			// Iremos acessar o hotel.bin para descobrir informaçoes sobre o quarto em que a pessoa esta
+			hotelbin = fopen("hotel.bin", "r");
+			rewind(hotelbin);
+			fseek(hotelbin, sizeof(quarto)*bin, SEEK_SET);
+			fread(&pesquisa, sizeof(quarto), 1, hotelbin);
+			printf("\nINFORMAÇÕES PERTINENTES AO RECEPCIONISTA\n\n");
+			printf("Número do quarto: %.2d\n", pesquisa.numero_quarto);
+			printf("Nome do cliente: %s\n", pesquisa.nome);
+			printf("Tipo do quarto: %d\n", pesquisa.tipo_quarto);
+		}
+		return ret;
+		
+	}
+	else if(strcmp(type2, "quarto") == 0)
+	{
+		//printf("hey ho lets go1\n");
+		num = atoi(nameroom);
+		quartos = fopen("quartos.txt", "r");
+		rewind(quartos);
+		while(!feof(quartos))
+		{
+			fscanf(quartos, "%d %d\n", &aux[counter].numquarto, &aux[counter].index2);
+			counter++;
+		}
+		ret = bbin(num, counter, aux, &p, &bin);
+	}
+	fclose(quartos);
+		if(ret != -1)
+		{
+			hotelbin = fopen("hotel.bin", "r");
+			rewind(hotelbin);
+			fseek(hotelbin, sizeof(quarto)*bin, SEEK_SET);
+			fread(&pesquisa, sizeof(quarto), 1, hotelbin);
+			printf("\nINFORMAÇÕES PERTINENTES AO RECEPCIONISTA\n\n");
+			printf("Número do quarto: %.2d\n", pesquisa.numero_quarto);
+			printf("Nome do cliente: %s\n", pesquisa.nome);
+			printf("Tipo do quarto: %d\n", pesquisa.tipo_quarto);
+		}
+	return ret;
+}

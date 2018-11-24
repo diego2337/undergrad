@@ -1,0 +1,28 @@
+r NOY9391 1996 honda city AM
+r NPH7302 2008 honda civic MT
+r OIA9588 2005 gm zafira CE
+r OPD1108 1994 fiat palio MG
+r NPF4252 1998 fiat uno MT
+c OIA9588
+r JQR2366 1990 ford fusion BA
+a NOY9391
+a NPH7302
+a OIA9588
+a OPD1108
+a NPF4252
+r NOJ9969 1990 gm camaro AM
+r OLM3786 2006 fiat doblo TO
+r NPU3007 2006 toyota corolla PB
+c OIA9588
+c OPD1108
+c NOJ9969
+r HQE5338 1996 ferrari 360spider MA
+r OBK1494 2013 vw voyage MT
+r OES1911 2003 ferrari 599gtb SE
+a JQR2366
+a NOJ9969
+a OLM3786
+r NMJ1195 2003 vw parati AL
+r NFI1501 1992 porsche cayenne GO
+c NOY9391
+c NPH7302

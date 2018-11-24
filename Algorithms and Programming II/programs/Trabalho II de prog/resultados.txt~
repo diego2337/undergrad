@@ -1,0 +1,6 @@
+Utilizando hash:
+roubados.txt : Time elapsed: 7.24
+apreendidos.txt: Time elapsed: 5.51
+consulta.txt: Time elapsed: 5.96
+Utilizando lista dinamica:
+roubados.txt: Time elapsed: 

@@ -1,0 +1,36 @@
+/* Diego Cintra e Rogerio Sandim */
+#ifndef lista
+/* Bibliotecas */
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<time.h>
+/* Constantes */
+#define MAX 1000000
+
+/* Struct do cadastro das placas */
+typedef struct{
+	char placa[8];
+	int ano;
+	char marca[10];
+	char modelo[15];
+	char estado[3];
+}tipo;
+
+/*Struct da lista estatica */
+typedef struct{
+	tipo val[MAX];
+	int tam;
+}lista;
+
+typedef lista *Lista;
+/* Funcoes */
+void init(Lista *L);
+int insere(Lista *L, tipo val);
+int remover(Lista *L, tipo val);
+int cheia(Lista *L);
+int vazio(Lista *L);
+int busca(Lista *L, tipo val, void *pont, void *pont2);
+int cmp(tipo a, tipo b);
+int compare(const void *a, const void *b);
+#endif

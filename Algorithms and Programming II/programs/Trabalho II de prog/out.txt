@@ -1,0 +1,29 @@
+carro (NOY9391 1996 honda city AM) roubado.
+carro (NPH7302 2008 honda civic MT) roubado.
+carro (OIA9588 2005 gm zafira CE) roubado.
+carro (OPD1108 1994 fiat palio MG) roubado.
+carro (NPF4252 1998 fiat uno MT) roubado.
+carro (OIA9588 2005 gm zafira CE) eh um carro roubado, prender motorista.
+carro (JQR2366 1990 ford fusion BA) roubado.
+carro (NOY9391 1996 honda city AM) recuperado.
+carro (NPH7302 2008 honda civic MT) recuperado.
+carro (OIA9588 2005 gm zafira CE) recuperado.
+carro (OPD1108 1994 fiat palio MG) recuperado.
+carro (NPF4252 1998 fiat uno MT) recuperado.
+carro (NOJ9969 1990 gm camaro AM) roubado.
+carro (OLM3786 2006 fiat doblo TO) roubado.
+carro (NPU3007 2006 toyota corolla PB) roubado.
+carro OIA9588 NAO eh um carro roubado, liberar motorista.
+carro OPD1108 NAO eh um carro roubado, liberar motorista.
+carro (NOJ9969 1990 gm camaro AM) eh um carro roubado, prender motorista.
+carro (HQE5338 1996 ferrari 360spider MA) roubado.
+carro (OBK1494 2013 vw voyage MT) roubado.
+carro (OES1911 2003 ferrari 599gtb SE) roubado.
+carro (JQR2366 1990 ford fusion BA) recuperado.
+carro (NOJ9969 1990 gm camaro AM) recuperado.
+carro (OLM3786 2006 fiat doblo TO) recuperado.
+carro (NMJ1195 2003 vw parati AL) roubado.
+carro (NFI1501 1992 porsche cayenne GO) roubado.
+carro NOY9391 NAO eh um carro roubado, liberar motorista.
+carro NPH7302 NAO eh um carro roubado, liberar motorista.
+Time elapsed: 0.01

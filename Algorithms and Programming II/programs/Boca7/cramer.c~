@@ -1,0 +1,85 @@
+// Programa: cramer.c
+// Programador: Diego Cintra
+// Data: 18 de janeiro de 2013
+#include<stdio.h>
+#include<stdlib.h>
+void troca(int **m, int *v, int pos)
+{
+	int j, troca;
+	for (j = 0; j < 3; j++)
+	{
+		troca = *(*(m+j)+pos);
+		*(*(m+j)+pos) = *(v+j);
+		*(v+j) = troca;
+	}
+	/*if(pos == 0)
+	{
+		*(*(m+0)+0) = *(v+0);
+		*(*(m+1)+0) = *(v+1);
+		*(*(m+2)+0) = *(v+2);
+	}
+	if(pos == 1)
+	{
+		*(*(m+0)+1) = *(v+0);
+		*(*(m+1)+1) = *(v+1);
+		*(*(m+2)+1) = *(v+2);
+	}
+	if(pos == 2)
+	{
+		*(*(m+0)+2) = *(v+0);
+		*(*(m+1)+2) = *(v+1);
+		*(*(m+2)+2) = *(v+2);
+	}*/
+}
+float determinante(int **m)
+{
+	float diag, diag2, det;
+	diag = ((*(*(m+0)+0)) * (*(*(m+1)+1)) * (*(*(m+2)+2))) + ((*(*(m+0)+1)) * (*(*(m+1)+2)) * (*(*(m+2)+0))) + ((*(*(m+0)+2)) * (*(*(m+1)+0)) * (*(*(m+2)+1))); 
+	diag2 = ((*(*(m+0)+1)) * (*(*(m+1)+0)) * (*(*(m+2)+2))) + ((*(*(m+0)+0)) * (*(*(m+1)+2)) * (*(*(m+2)+1))) + ((*(*(m+0)+2)) * (*(*(m+1)+1)) * (*(*(m+2)+0)));
+	det = diag - diag2;
+	return det;
+}
+int main(void)
+{
+	int **m, *v;
+	int i, j, k, rep, pos;
+	float maux, x, y, z;
+	scanf("%d", &rep);
+	for(i = 0; i < rep; i++)
+	{
+		m = (int**)malloc (3*sizeof(int*)); 
+		for(j = 0; j < 3; j++)
+		*(m+j) = (int*)malloc (3*sizeof(int*));
+		for(j = 0; j < 3; j++)
+		{
+			for(k = 0; k < 3; k++)
+			scanf("%d", &(*(*(m+j)+k)) );
+		}
+		v = (int*)malloc (3*sizeof(int*));
+		for(j = 0; j < 3; j++)
+		scanf("%d", (v+j));
+		maux = determinante(m);
+		pos = 0;
+		troca(m, v, pos);
+		x = determinante(m)/maux;
+		troca(m, v, pos);
+		pos = 1;
+		troca(m, v, pos);
+		y = determinante(m)/maux;
+		troca(m, v, pos);
+		pos = 2;
+		troca(m, v, pos);
+		z = determinante(m)/maux;
+		troca(m, v, pos);
+		if(x == '0' && y == '0' && z == '0')
+		printf("singular\n");
+		else
+		printf("%.2f %.2f %.2f\n", x, y, z);
+		for(j = 0; j < 3; j++)
+		{
+			free(*(m+j));
+		}
+		free(m);
+	}
+	return 0;
+}

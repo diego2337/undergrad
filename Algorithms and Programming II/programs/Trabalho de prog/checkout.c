@@ -1,0 +1,116 @@
+// Programa: checkout.c
+// Programador: Diego Cintra
+// Data: 06/02/2013
+// O dialogo: Esse programa, sendo uma subrotina do arquivo hotel.c, ira efetuar o check-out de uma pessoa de um hotel.
+
+#include "hotel.h"
+
+int checkout(char name[200]);
+int main(int argc, char **argv)
+{
+	int results = 0;
+	results = checkout(argv[1]);
+	if(results == 0)
+	printf("Operação realizada com sucesso.\n");
+	else
+	printf("Essa pessoa não se hospedou no hotel.\n");
+
+	return 0;
+}
+int checkout(char name[200])
+{
+	FILE *quartos;
+	FILE *nomes;
+	ntxt aux2[200];
+	qtxt aux3[200];
+	int i = 0, r = -1, j, counter2 = 0, counter3 = 0, bin, p, res, res2, num;
+	// Devemos ter certeza de que a pessoa que quer fazer checkout realmente esta no hotel.
+	nomes = fopen("nomes.txt", "r");
+	rewind(nomes);
+	while(!feof(nomes))
+	{
+		fscanf(nomes, "%s %d\n", aux2[counter2].nompess, &aux2[counter2].index3);
+		counter2++;
+	}
+	res = bbinstring(name, counter2, aux2, &bin);
+	fclose(nomes);
+	// Saber o numero do quarto
+	quartos = fopen("quartos.txt", "r");
+	rewind(quartos);
+	while(!feof(quartos))
+	{
+		fscanf(quartos, "%d %d\n", &aux3[counter3].numquarto, &aux3[counter3].index2);
+		counter3++;
+	}
+	num = atoi(name);
+	res2 = bbin(num, counter3, aux3, &p, &bin);
+	fclose(quartos);
+	if(res == -1)
+	{
+		return -1;
+	}
+	else
+	{
+		// Iremos agora apagar o cadastro dessa pessoa dos arquivos .txt e do .bin.
+		nomes = fopen("nomes.txt", "r");
+		rewind(nomes);
+			while(!feof(nomes))
+			{
+				fscanf(nomes, "%s %d\n", aux2[i].nompess, &aux2[i].index3);
+				if(strcmp(aux2[i].nompess,name) == 0)
+				{
+					r = i;
+				}
+
+				i++;
+			}
+		rewind(nomes);
+		for (j = r; j < i; j += 1)
+		{
+				strcpy(aux2[j].nompess, aux2[j+1].nompess);
+				aux2[j].index3 = aux2[j+1].index3;
+		}
+		i--;
+	
+		nomes = fopen("nomes.txt", "w+");
+		rewind(nomes);
+			
+			for (j = 0; j < i; j += 1)
+			{
+			fprintf(nomes, "%s %d\n", aux2[j].nompess, aux2[j].index3);
+				
+			}
+			fclose(nomes);
+		
+		i = 0;
+		quartos = fopen("quartos.txt", "r");
+		rewind(quartos);
+			while(!feof(quartos))
+			{
+				fscanf(quartos, "%d %d\n", &aux3[i].numquarto, &aux3[i].index2);
+				if(aux3[i].numquarto == p)
+				{
+					r = i;
+				}
+
+				i++;
+			}
+		rewind(quartos);
+		for (j = r; j < i; j += 1)
+		{
+				aux3[j].numquarto = aux3[j+1].numquarto;
+				aux3[j].index2 = aux3[j+1].index2;
+		}
+		i--;
+	
+		quartos = fopen("quartos.txt", "w+");
+		rewind(quartos);
+			
+			for (j = 0; j < i; j += 1)
+			{
+				fprintf(quartos, "%d %d\n", aux3[j].numquarto, aux3[j].index2);				
+			}
+			fclose(quartos);
+	}
+	return 0;
+}

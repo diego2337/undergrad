@@ -1,0 +1,55 @@
+// Programa: lista.c
+// Programador: Diego Cintra
+// Data: 23/01/2013
+// O dialogo: Esse programa, que ira trabalhar em conjunto com o programa hotel.c, ira criar uma lista com todos os quartos de um hotel, listando quais sao os tipos, quais estao disponiveis e quais estao ocupados.
+
+#include "hotel.h"
+
+int main(void)
+{
+	lista();
+	return 0;
+}
+void lista(void)
+{
+	FILE *quartos;
+	int i, numquarto2, index;
+	qtxt array[15];
+	quartos = fopen("quartos.txt", "r");
+		rewind(quartos);
+
+		// Inicializando o vetor de 15 posicoes, pois sao 15 quartos
+		for(i = 0; i < 15; i++)
+		{
+			array[i].numquarto = 0;
+		}
+		
+		if(quartos == NULL)
+		{
+			printf("Arquivo não encontrado.\n");
+			exit(EXIT_FAILURE);
+		}
+		else
+		{
+			while(!feof(quartos))
+			{
+				fscanf(quartos, "%d %d\n", &numquarto2, &index);
+				array[numquarto2-1].numquarto = 1;
+				array[numquarto2-1].index2 = index;
+			}
+		}
+		fclose(quartos);
+		// Iremos mostrar os quartos vazios e ocupados
+		printf("\n-----------------------------------------------------------\n");
+		for(i = 0; i < 15; i++)
+		{
+			if(array[i].numquarto == 0)
+			{
+				printf("Quarto: %.2d   Situação: Vazio \n", i+1);
+			}
+			else	
+			{
+				printf("Quarto: %.2d   Situação: Ocupado \n", i+1);
+			}
+		}	
+}
