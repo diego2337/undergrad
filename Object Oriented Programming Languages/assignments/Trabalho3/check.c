@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int trash, i, x = 0;
+	char op;
+	FILE *arq;
+	arq = fopen("input1.txt", "r");
+	for(i = 0; i < 4; i++)
+		fscanf(arq, "%d", &trash);
+	while(1)
+	{
+		fscanf(arq, "%d", &trash);
+		if(feof(arq))
+			break;
+		fscanf(arq, "%c", &op);
+		if(op == 'R')
+		{
+			x++;
+			fscanf(arq, "%d", &trash);
+		}
+		else
+		{
+			fscanf(arq, "%d", &trash);
+			fscanf(arq, "%d", &trash);
+		}
+	}
+	printf("Numero de vezes que requisitou read: %d\n", x);
+}

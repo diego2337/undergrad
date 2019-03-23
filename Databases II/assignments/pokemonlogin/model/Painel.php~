@@ -1,0 +1,14 @@
+<?php
+
+class Painel
+{
+  private $id;
+  private $nome;
+  private $num_insignas;
+  private $pokemons_capturados;
+  private $pokemons_vistos;
+
+
+}
+
+?>

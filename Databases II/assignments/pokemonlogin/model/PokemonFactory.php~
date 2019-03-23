@@ -1,0 +1,201 @@
+<?php
+
+require 'model/AbstractFactory.php';
+require 'model/Pokemon.php';
+
+class PokemonFactory extends AbstractFactory {
+    
+    public function __construct() {
+        parent::__construct();
+    }
+    
+    public function buscar($param) {
+        $busca = $param;
+        
+        try {
+            $sth = $this->database->prepare("SELECT * FROM Pokemon WHERE nome_pokemon LIKE :busca");
+            
+            $busca = "%".$busca."%";
+            
+            $sth->bindParam(":busca", $busca);
+            
+            $sth->execute();
+            
+            $pokemons = array ();
+
+            while ($obj =  $sth->fetchObject())
+            {
+                    $pokemon = new Pokemon();
+
+                    $pokemon->setNumber ($obj->numero_pokemon);
+                    $pokemon->setType($obj->tipo);
+                    $pokemon->setRegion($obj->regiao);
+                    $pokemon->setName ($obj->nome_pokemon);
+                    $pokemon->setLevel($obj->nivel);
+                    $pokemons []  = $pokemon;
+                    //TODO IMAGEM
+            }
+            
+            return $pokemons;
+            
+            
+        } catch (Exception $exc) {
+            echo $exc->getTraceAsString();
+        }
+
+    }
+    
+        public function buscarId($param) {
+        $busca = (int) $param;
+        
+        try {
+            $sth = $this->database->prepare("SELECT * FROM Pokemon WHERE numero_pokemon = :busca");
+                       
+            $sth->bindParam(":busca", $busca);
+            
+            $sth->execute();
+            
+            $pokemons = array ();
+
+            while ($obj =  $sth->fetchObject())
+            {
+                    $pokemon = new Pokemon();
+
+                    $pokemon->setNumber ($obj->numero_pokemon);
+                    $pokemon->setType($obj->tipo);
+                    $pokemon->setRegion($obj->regiao);
+                    $pokemon->setName ($obj->nome_pokemon);
+                    $pokemon->setLevel($obj->nivel);
+                    $pokemon->setDescription($obj->descricao);
+                    $pokemon->setImagem($obj->img);
+                    $pokemons []  = $pokemon;
+            }
+            
+            return $pokemons;
+            
+            
+        } catch (Exception $exc) {
+            echo $exc->getTraceAsString();
+        }
+
+    }
+
+    public function listar() {
+        
+        try {
+            
+            $sth = $this->database->prepare("SELECT * FROM Pokemon");
+            $sth->execute();
+
+            $pokemons = array ();
+
+            while ($obj =  $sth->fetchObject())
+            {
+                    $pokemon = new Pokemon();
+
+                    
+                    $pokemon->setNumber ($obj->numero_pokemon);
+                    $pokemon->setType($obj->tipo);
+                    $pokemon->setRegion($obj->regiao);
+                    $pokemon->setName ($obj->nome_pokemon);
+                    $pokemon->setLevel($obj->nivel);
+                    $pokemons []  = $pokemon;
+
+            }
+            
+            return $pokemons;
+            
+            
+        } catch(PDOException $e) {
+           echo $e->getMessage();
+        }
+    }
+
+    /* @TODO */
+    public function alterar($object) {
+        
+        $num =  (int)$object->getNumber();
+        $nome = $object->getName();
+        $tipo = $object->getType();
+        $level =  $object->getLevel();
+        $regiao = $object->getRegion();
+        $description =  $object->getDescription();
+        
+         try {
+            
+            $sthe = $this->database->prepare("UPDATE Pokemon SET nome_pokemon = :nome, numero_pokemon = :num, tipo = :tipo, regiao = :regiao, nivel = :level, descricao = :descricao WHERE numero_pokemon = :num2" );
+
+            $sthe->bindParam(":nome", $nome);
+            $sthe->bindParam(":num", $num);           
+            $sthe->bindParam(":tipo", $tipo);
+            $sthe->bindParam(":level", $level);
+            $sthe->bindParam(":regiao", $regiao);
+            $sthe->bindParam(":descricao", $description);
+             $sthe->bindParam(":num2", $num); 
+            return $sthe->execute();  
+            
+            
+        } catch(PDOException $e) {
+           echo $e->getMessage();
+        }
+        
+        
+        
+    }
+    
+    /* @todo */
+    public function inserir($object) {
+        
+        $num =  $object->getNumber();
+        $nome = $object->getName();
+        $tipo = $object->getType();
+        $level =  $object->getLevel();
+        $regiao = $object->getRegion();
+        $description =  $object->getDescription();
+        $imagem = $object->getImagem();
+        
+     
+        
+        try {
+            
+            $sthe = $this->database->prepare("INSERT INTO Pokemon (nome_pokemon, numero_pokemon, tipo, regiao, nivel , descricao, imagem ) VALUES (:nome, :num, :tipo, :regiao, :level, :descricao, :imagem)");
+
+            $sthe->bindParam(":num", $num);
+            $sthe->bindParam(":nome", $nome);
+            $sthe->bindParam(":tipo", $tipo);
+            $sthe->bindParam(":level", $level);
+            $sthe->bindParam(":regiao", $regiao);
+            $sthe->bindParam(":descricao", $description);
+            $sthe->bindParam(":imagem", $imagem);
+            
+            $sthe->execute();  
+            
+            
+        } catch(PDOException $e) {
+           echo $e->getMessage();
+        }
+        
+        
+    }
+    
+
+    public function remover($param) {
+        try {
+            
+            $id = (int)$param;
+                
+            $sth = $this->database->prepare("DELETE FROM Pokemon WHERE numero_pokemon = :id");
+            $sth->bindParam(":id", $id);
+            
+            $sth->execute();
+
+            
+        } catch(PDOException $e) {
+           echo $e->getMessage();
+        }
+        
+    }
+}
+
+
+?>

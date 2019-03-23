@@ -1,0 +1,55 @@
+Caso de Uso: Jogar Jelly mode
+Escopo: Jelly Brick game
+
+Atores: Usuários do Jelly Brick Game
+
+Interessados: Usuários de jogos de dispositivos móveis, solicitadores do desenvolvimento do jogo
+
+Pré-condições: O usuário deve possuir Jelly Brick Game instalado em seu dispositivo móvel, que pode ser obtido por download através do Google Play ou Apple Store.
+
+Pós condições: O usuário utilizou o aplicativo e está satisfeito com sua pontuação.
+
+Requisitos Correlacionados: B.1, B.2, B.3 e C (de acordo com o documento de requisitos gerado)
+
+Variações teconológicas: O usuário pode controlar: a direção em que seu personagem irá planar através do movimento do dedo na mesma direção, para o Balloon breeze; a direção da troca dos blocos para direita ou para a esquerda através do toque do dedo e seu movimento na respectiva direção, no caso de jogar o Puzzle challenge; selecionar a ordem que ele considera correta através do toque do dedo sobre os elementos do heptágono para o Simon fibonacci; e selecionar o opção para salvar e sair. 
+
+Fluxo Principal:
+
+1.  [EV] O usuário carrega o jogo Jelly Brick Game em seu dispositivo móvel.
+2.  [EV] O usuário seleciona seu nome (nickname), no início do aplicativo.
+3.  [RS] O usuário é informado dos modos de jogo: free mode ou jelly mode.      
+4.  [EV] O usuário opta por jogar o Jelly mode.
+5.  [RS] O usuário é informado que o jogo irá começar.
+6.  [EV] O usuário joga:
+	- Sucesso: Ver variante 7.1.
+	- Derrota: Ver variante 7.2.
+	- Pontuação: Ver variante 7.3.
+	- Satisfação: Ver variante 7.4.
+8.  [RS] É informado ao usuário qual foi sua pontuação final.
+9.  [RS] É fornecido ao jogador a opção de tentar novamente ou escolher outro modo de jogo.
+10. [EV] O usuário vai para a tela de menu principal.
+11. [EV] O usuário fecha a aplicação.
+
+Tratamento de exceções:
+
+3a. O usuário é novato no aplicativo, e deseja aprender a utilizar o jogo.
+3a.1 O usuário seleciona a opção tutorial, disponível na tela inicial, onde ele é introduzido e joga um pouco de todos os minigames em seus diferentes modos.
+3a.2 Volte ao passo 3.
+
+2b. O usuário  teve a necessidade de alterar seu nickname dentro da aplicação.
+2b.1 O usuário seleciona a opção de alteração do nickname e realiza a operação.
+2b.2 Vá ao passo 3.
+
+2c. O usuário não está cadastrado.
+2c.1 O usuário realiza seu cadastro no Jelly Brick Game.
+2c.2 Volte ao passo 2.
+
+Variantes:
+7.1: Sucesso:
+	7.1.1. O usuário consegue os requisitos especificados na tela, passa para o próximo nível e a dificuldade aumenta. Volte ao passo 5.
+7.2: Derrota:
+	7.2.1. O usuário perde o jogo.
+7.3: Pontuação:
+	7.3.1. O usuário conseguiu 1010 pontos ou mais, e anteriormente ele conseguiu chegar á pontuação 110 ou mais nos jogos Balloon breeze e Simon fibonacci e aguentou mais de 50 minutos no Puzzle challenge. É avisado que o jogo Recursive Calculations foi liberado.
+7.4: Satisfação:
+	7.4.1. O usuário está satisfeito com sua pontuação, portanto ele aperta o botão de sair e finaliza o jogo.

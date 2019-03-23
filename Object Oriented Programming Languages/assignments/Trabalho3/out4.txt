@@ -1,0 +1,1508 @@
+0R0 0 miss
+0R1 0 miss
+0R2 0 miss
+0R3 0 miss
+0R4 0 miss
+0R5 0 miss
+0R6 0 miss
+0R7 0 miss
+0R8 0 miss
+0R9 0 miss
+0R10 0 miss
+0R11 0 miss
+0R12 0 miss
+0R13 0 miss
+0R14 0 miss
+0R15 0 miss
+0R16 0 miss
+0R17 0 miss
+0R18 0 miss
+0R19 0 miss
+0R20 0 miss
+0R21 0 miss
+0R22 0 miss
+0R23 0 miss
+0R24 0 miss
+0R25 0 miss
+0R26 0 miss
+0R27 0 miss
+0R28 0 miss
+0R29 0 miss
+0R30 0 miss
+0R31 0 miss
+0R32 0 miss
+0R33 0 miss
+0R34 0 miss
+0R35 0 miss
+0R36 0 miss
+0R37 0 miss
+0R38 0 miss
+0R39 0 miss
+0R40 0 miss
+0R41 0 miss
+0R42 0 miss
+0R43 0 miss
+0R44 0 miss
+0R45 0 miss
+0R46 0 miss
+0R47 0 miss
+0R48 0 miss
+0R49 0 miss
+0R50 0 miss
+0R51 0 miss
+0R52 0 miss
+0R53 0 miss
+0R54 0 miss
+0R55 0 miss
+0R56 0 miss
+0R57 0 miss
+0R58 0 miss
+0R59 0 miss
+0R60 0 miss
+0R61 0 miss
+0R62 0 miss
+0R63 0 miss
+0R64 0 miss
+0R65 0 miss
+0R66 0 miss
+0R67 0 miss
+0R68 0 miss
+0R69 0 miss
+0R70 0 miss
+0R71 0 miss
+0R72 0 miss
+0R73 0 miss
+0R74 0 miss
+0R75 0 miss
+0R76 0 miss
+0R77 0 miss
+0R78 0 miss
+0R79 0 miss
+0R80 0 miss
+0R81 0 miss
+0R82 0 miss
+0R83 0 miss
+0R84 0 miss
+0R85 0 miss
+0R86 0 miss
+0R87 0 miss
+0R88 0 miss
+0R89 0 miss
+0R90 0 miss
+0R91 0 miss
+0R92 0 miss
+0R93 0 miss
+0R94 0 miss
+0R95 0 miss
+0R96 0 miss
+0R97 0 miss
+0R98 0 miss
+0R99 0 miss
+0W256 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W257 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W258 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W259 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W260 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W261 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W262 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W263 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W264 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W265 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W266 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W267 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W268 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W269 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W270 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W271 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W272 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W273 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W274 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W275 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W276 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W277 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W278 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W279 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W280 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W281 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W282 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W283 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W284 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W285 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W286 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W287 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W288 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W289 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W290 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W291 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W292 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W293 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W294 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W295 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W296 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W297 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W298 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W299 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W300 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W301 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W302 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W303 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W304 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W305 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W306 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W307 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W308 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W309 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W310 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W311 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W312 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W313 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W314 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W315 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W316 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W317 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W318 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W319 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W320 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W321 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W322 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W323 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W324 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W325 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W326 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W327 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W328 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W329 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W330 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W331 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W332 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W333 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W334 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W335 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W336 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W337 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W338 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W339 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W340 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W341 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W342 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W343 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W344 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W345 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W346 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W347 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W348 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W349 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W350 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W351 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W352 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W353 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W354 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W355 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+subsitiuiu! (writemissone) 
+0W355 1 
+Directory getCacheList: 0
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+hit
+Vamos começar WriteBack.
+0R0 0 miss
+0R1 0 miss
+0R2 0 miss
+0R3 0 miss
+0R4 0 miss
+0R5 0 miss
+0R6 0 miss
+0R7 0 miss
+0R8 0 miss
+0R9 0 miss
+0R10 0 miss
+0R11 0 miss
+0R12 0 miss
+0R13 0 miss
+0R14 0 miss
+0R15 0 miss
+0R16 0 miss
+0R17 0 miss
+0R18 0 miss
+0R19 0 miss
+0R20 0 miss
+0R21 0 miss
+0R22 0 miss
+0R23 0 miss
+0R24 0 miss
+0R25 0 miss
+0R26 0 miss
+0R27 0 miss
+0R28 0 miss
+0R29 0 miss
+0R30 0 miss
+0R31 0 miss
+0R32 0 miss
+0R33 0 miss
+0R34 0 miss
+0R35 0 miss
+0R36 0 miss
+0R37 0 miss
+0R38 0 miss
+0R39 0 miss
+0R40 0 miss
+0R41 0 miss
+0R42 0 miss
+0R43 0 miss
+0R44 0 miss
+0R45 0 miss
+0R46 0 miss
+0R47 0 miss
+0R48 0 miss
+0R49 0 miss
+0R50 0 miss
+0R51 0 miss
+0R52 0 miss
+0R53 0 miss
+0R54 0 miss
+0R55 0 miss
+0R56 0 miss
+0R57 0 miss
+0R58 0 miss
+0R59 0 miss
+0R60 0 miss
+0R61 0 miss
+0R62 0 miss
+0R63 0 miss
+0R64 0 miss
+0R65 0 miss
+0R66 0 miss
+0R67 0 miss
+0R68 0 miss
+0R69 0 miss
+0R70 0 miss
+0R71 0 miss
+0R72 0 miss
+0R73 0 miss
+0R74 0 miss
+0R75 0 miss
+0R76 0 miss
+0R77 0 miss
+0R78 0 miss
+0R79 0 miss
+0R80 0 miss
+0R81 0 miss
+0R82 0 miss
+0R83 0 miss
+0R84 0 miss
+0R85 0 miss
+0R86 0 miss
+0R87 0 miss
+0R88 0 miss
+0R89 0 miss
+0R90 0 miss
+0R91 0 miss
+0R92 0 miss
+0R93 0 miss
+0R94 0 miss
+0R95 0 miss
+0R96 0 miss
+0R97 0 miss
+0R98 0 miss
+0R99 0 miss
+0W256 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W257 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W258 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W259 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W260 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W261 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W262 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W263 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W264 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W265 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W266 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W267 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W268 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W269 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W270 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W271 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W272 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W273 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W274 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W275 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W276 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W277 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W278 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W279 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W280 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W281 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W282 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W283 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W284 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W285 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W286 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W287 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W288 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W289 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W290 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W291 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W292 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W293 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W294 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W295 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W296 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W297 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W298 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W299 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W300 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W301 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W302 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W303 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W304 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W305 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W306 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W307 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W308 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W309 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W310 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W311 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W312 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W313 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W314 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W315 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W316 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W317 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W318 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W319 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W320 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W321 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W322 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W323 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W324 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W325 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W326 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W327 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W328 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W329 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W330 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W331 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W332 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W333 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W334 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W335 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W336 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W337 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W338 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W339 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W340 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W341 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W342 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W343 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W344 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W345 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W346 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W347 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W348 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W349 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W350 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W351 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W352 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W353 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W354 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W355 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+foi
+subsitiuiu! (writemissone) 
+0W355 1 
+Directory getCacheList: 0
+hit

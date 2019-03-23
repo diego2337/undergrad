@@ -1,0 +1,4 @@
+0R0miss
+0R0Tag e numero de cache correspondentes
+0W0hit
+3W255miss

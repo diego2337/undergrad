@@ -1,0 +1,30 @@
+<?php
+
+
+
+$username = "root";
+$password = "setembro";
+$hostname = "localhost"; 
+
+//connection to the database
+$dbhandle = mysql_connect($hostname, $username, $password) 
+  or die("Unable to connect to MySQL");
+echo "Connected to MySQL<br>";
+ mysql_select_db("Pokedex") or die("error pilih db");
+
+ 
+ $title=$_POST["title"];
+ 
+  
+ $result=mysql_query("SELECT * FROM Pokemon where Nome_pokemon like '%$title%'");
+ $found=mysql_num_rows($result);
+ 
+ if($found>0){
+    while($row=mysql_fetch_array($result)){
+    echo "<tr><td>$row[Nome_pokemon]</td></td>";
+    }   
+ }else{
+    echo "<li>No Tutorial Found<li>";
+ }
+ // ajax search
+?>

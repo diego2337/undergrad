@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokedex data manager</title>
+       <?php include '../header.php'; ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    
+    <!-- Resultado da Busca em ajax -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                 
+                 function search(){
+
+                      var title=$("#search").val();
+
+                      if(title!=""){
+                        $("#result").html("<img src='ajax-loader.gif'/>");
+                         $.ajax({
+                            type:"post",
+                            url:"resultado_pokemon.php",
+                            data:"title="+title,
+                            success:function(data){
+                                $("#result").html(data);
+                                $("#search").val("");
+                             }
+                          });
+                      }
+                 }
+
+                  $("#button").click(function(){
+                  	 search();
+                  });
+
+                  $('#search').keyup(function(e) {
+                     if(e.keyCode == 13) {
+                        search();
+                      }
+                  });
+            });
+        </script>
+    
+    
+    
+  </head>
+  <body>
+
+
+  
+    <legend> Digite o nome do pokemon que deseja encontrar:</legend>
+    
+      
+  
+    <div class="form">
+    <input class="span2" id="search" type="text" name="nome" placeholder="Charmander, Squirtle, etc...">
+    <button class="btn" type="submit" id = "button">Go!</button>
+ 
+  
+  
+  <br>Nome<br>
+  <table id="result"> 
+
+  
+  </table>
+  </div>
+  
+  
+  
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="../jquery-1.10.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+ </body>
+ 
+ </html>

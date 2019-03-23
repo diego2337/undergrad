@@ -1,0 +1,50 @@
+<?php
+  require 'model/AbstractFactory.php';
+  require 'model/TreinadorPokemon.php';
+
+  class PokemonFactory extends AbstractFactory {
+  
+     public function __construct() {
+        parent::__construct();
+    }
+    
+    public function buscar($param) {
+      $busca = $param;
+      
+      //try 
+      //{
+	  //PENSAR NA BUSCA QUANDO TIVER MENOS CALOR
+            $sth = $this->database->prepare("SELECT P.nome_pokemon, TP.id_pokemon, TP.apelido, TP.level FROM Treinador_possui_Pokemon TP, Treinador T, Pokemon P WHERE T.id_treinador = TP.id_treinador AND T.login = :busca AND TP.num_pokemon = P.numero_pokemon" );
+      
+	    $sth->bindParam(":busca", $busca);
+            
+            $sth->execute();
+            
+            $pokemons = array ();
+
+            
+            while ($obj =  $sth->fetchObject())
+            {
+                    $pokemon = new TreinadorPokemon();
+
+                    $pokemon->setId ($obj->P.id_pokemon);
+                    $pokemon->setNome($obj->);
+                    $pokemon->setRegion($obj->regiao);
+                    $pokemon->setName ($obj->nome_pokemon);
+                    $pokemon->setLevel($obj->nivel);
+                    $pokemon->setDescription($obj->descricao);
+                    $pokemon->setImagem($obj->imagem);
+                    $pokemons []  = $pokemon;
+            }
+                  
+      //}
+      
+        
+    
+    }
+  
+  
+  }
+  
+  
+  ?>

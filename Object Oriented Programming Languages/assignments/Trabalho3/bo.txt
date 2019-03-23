@@ -1,0 +1,717 @@
+
+
+Bem vindo! Esse programa irá simular um comportamento de caches de processadores, utilizando políticas de escrita 'Writethrough' e 'Writeback'. Nas próximas 4 requisições, insira, respectivamente, o valor de endereçamento (para cache e memória principal), o número máximo de blocos da memória principal, o número máximo de blocos da memória cache e o número de processadores presente no simulador (e, consequentemente, o número de caches do sistema). Tenha em mente que todas as caches estão inicialmente vazias, e os valores armazenados na memória principal são NULL. Agora, por favor, insira os valores: 
+
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 0
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 0
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 1
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 1
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 1
+Numero de acessos à memória principal para escrita: 1
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 2
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 1
+Numero de acessos à memória principal para escrita: 2
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 3
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 2
+Numero de acessos à memória principal para escrita: 2
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 4
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 3
+Numero de acessos à memória principal para escrita: 2
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 5
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 4
+Numero de acessos à memória principal para escrita: 2
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 6
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 5
+Numero de acessos à memória principal para escrita: 2
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 7
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 6
+Numero de acessos à memória principal para escrita: 2
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 8
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 6
+Numero de acessos à memória principal para escrita: 3
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 9
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 7
+Numero de acessos à memória principal para escrita: 3
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 10
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 7
+Numero de acessos à memória principal para escrita: 4
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 11
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 7
+Numero de acessos à memória principal para escrita: 5
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 12
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 7
+Numero de acessos à memória principal para escrita: 6
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 13
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 8
+Numero de acessos à memória principal para escrita: 6
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 14
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 8
+Numero de acessos à memória principal para escrita: 6
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 15
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 8
+Numero de acessos à memória principal para escrita: 7
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 16
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 9
+Numero de acessos à memória principal para escrita: 7
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 17
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 9
+Numero de acessos à memória principal para escrita: 8
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 18
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 9
+Numero de acessos à memória principal para escrita: 9
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 19
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 9
+Numero de acessos à memória principal para escrita: 10
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 20
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 9
+Numero de acessos à memória principal para escrita: 11
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 21
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 9
+Numero de acessos à memória principal para escrita: 12
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 22
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 10
+Numero de acessos à memória principal para escrita: 12
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 23
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 11
+Numero de acessos à memória principal para escrita: 12
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 24
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 12
+Numero de acessos à memória principal para escrita: 12
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 25
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 13
+Numero de acessos à memória principal para escrita: 12
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 26
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 14
+Numero de acessos à memória principal para escrita: 12
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 27
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 14
+Numero de acessos à memória principal para escrita: 13
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 28
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 15
+Numero de acessos à memória principal para escrita: 13
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 29
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 16
+Numero de acessos à memória principal para escrita: 13
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 30
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 16
+Numero de acessos à memória principal para escrita: 14
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 31
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 16
+Numero de acessos à memória principal para escrita: 15
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 32
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 16
+Numero de acessos à memória principal para escrita: 16
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 33
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 16
+Numero de acessos à memória principal para escrita: 17
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 34
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 17
+Numero de acessos à memória principal para escrita: 17
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 35
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 17
+Numero de acessos à memória principal para escrita: 18
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 36
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 17
+Numero de acessos à memória principal para escrita: 19
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 37
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 18
+Numero de acessos à memória principal para escrita: 19
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 38
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 19
+Numero de acessos à memória principal para escrita: 19
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 39
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 19
+Numero de acessos à memória principal para escrita: 20
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 40
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 19
+Numero de acessos à memória principal para escrita: 21
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 41
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 19
+Numero de acessos à memória principal para escrita: 22
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 42
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 19
+Numero de acessos à memória principal para escrita: 23
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 42
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 19
+Numero de acessos à memória principal para escrita: 24
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 42
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 19
+Numero de acessos à memória principal para escrita: 25
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 43
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 20
+Numero de acessos à memória principal para escrita: 25
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 44
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 20
+Numero de acessos à memória principal para escrita: 26
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 45
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 21
+Numero de acessos à memória principal para escrita: 26
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 46
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 22
+Numero de acessos à memória principal para escrita: 26
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 47
+Numero de substituições de blocos de cache: 1
+Esses são os resultados para a execução utilizando a política de cache Writethrough: 
+Numero de acessos à memória principal para leitura: 22
+Numero de acessos à memória principal para escrita: 26
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 47
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 0
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 0
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 1
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 1
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 1
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 2
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 1
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 3
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 2
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 4
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 3
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 5
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 4
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 6
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 5
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 7
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 6
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 8
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 6
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 9
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 7
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 10
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 7
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 11
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 7
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 12
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 7
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 13
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 8
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 14
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 9
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 15
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 9
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 16
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 10
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 17
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 10
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 18
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 10
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 19
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 10
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 20
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 10
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 21
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 10
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 22
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 11
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 23
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 12
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 24
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 13
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 25
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 14
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 26
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 15
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 27
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 15
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 28
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 16
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 29
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 17
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 30
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 17
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 31
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 17
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 32
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 17
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 33
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 17
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 34
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 18
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 35
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 18
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 36
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 18
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 37
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 19
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 38
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 20
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 39
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 20
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 40
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 20
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 41
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 20
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 0
+Numero de MISSES de leitura ou escrita na cache: 42
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 20
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 42
+Numero de substituições de blocos de cache: 0
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 20
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 42
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 20
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 43
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 21
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 44
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 21
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 45
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 22
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 46
+Numero de substituições de blocos de cache: 1
+------------------------------------------------------------ 
+
+Numero de acessos à memória principal para leitura: 23
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 47
+Numero de substituições de blocos de cache: 1
+
+Esses são os resultados para a execução utilizando a política de cache Writeback: 
+Numero de acessos à memória principal para leitura: 23
+Numero de acessos à memória principal para escrita: 0
+Numero de HITS de leitura ou escrita na cache: 1
+Numero de MISSES de leitura ou escrita na cache: 47
+Numero de substituições de blocos de cache: 1

@@ -1,0 +1,17 @@
+Write Back
+Numero de Read Miss: 896
+Numero de Read Hit: 431
+Numero de Write Hit: 370
+Numero de Write Miss: 863
+Numero de acessos a MP na escrita: 860
+Numero de acessos a MP na leitura: 416
+Numero de substituições 860
+
+Write Through
+Numero de Read Miss: 896
+Numero de Read Hit: 431
+Numero de Write Hit: 370
+Numero de Write Miss: 863
+Numero de acessos a MP na escrita: 1642
+Numero de acessos a MP na leitura: 416
+Numero de substituições 860

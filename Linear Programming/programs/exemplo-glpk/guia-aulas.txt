@@ -1,0 +1,8 @@
+Aula 1: investimento em linha de comando (intro ao glsol)
+        investimento em C (2 programas iniciais com glpk)
+        coloracao (+ completo)
+
+Exercicio: independent set ou mochila
+
+Aula avançada: column generation
+               callback

@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokedex data manager</title>
+       <?php include 'view/header.php'; ?>
+    <div class="form2">
+    <legend>Lista de Treinadores:</legend>
+    <form action="?action=buscaTreinador" class="form-search" method="POST">
+                    <input class="input-lg" id="search" type="text" name="nome" placeholder="Digite o nome de um treinador">
+                    <button class="btn btn-primary btn-lg" type="submit" id="button">Go!</button>
+        </form>
+        <table id="result" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nome Treinador</th>
+                    <th>Insignas</th>
+                    <th>Pokemons Capturados</th>
+                    <th>Pokemons Vistos</th>
+                    <th>Sexo</th>
+               
+                </tr>
+            </thead>
+            <tbody>
+              <?php
+            foreach ($treinadores as $t):
+                echo '<tr>';
+                    echo '<td> '.$t->getId().' </td>';
+                    echo '<td> '.$t->getNome().' </td>';
+                    echo '<td> '.$t->getNum_insignas().' </td>';
+                    echo '<td> '.$t->getQtd_pokemons_capturados().' </td>';
+                    echo '<td> '.$t->getQtd_pokemons_vistos().' </td>';
+                    echo '<td> '.$t->getSexo().' </td>';
+                   
+                echo '</tr>';
+                endforeach;
+             ?>
+            </tbody>
+        </table>
+        
+    </div>
+  
+ </body>
+ 
+ </html>

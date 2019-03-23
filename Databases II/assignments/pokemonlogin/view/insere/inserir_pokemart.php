@@ -1,0 +1,18 @@
+    <?php include('view/header.php'); ?>
+    <div class="form2">
+        <div class="lerge-form">
+            <form class="form-horizontal" action="?action=insertPokermartDB" method="POST">
+                <legend>Cadastrar novo Pokemart </legend>
+
+                <label>Local:  </label>      
+                <input  class="form-control" type="text" name="local"  >
+
+                <label >Quantidade de Itens:  </label>
+                <input class="form-control" type="text" placeholder="" name="qtd">
+
+                <label> <button type="submit" class="btn">Enviar!</button> </label>
+
+            </form>
+        </div>
+    </div> 
+    <?php include 'view/footer.php'; ?>

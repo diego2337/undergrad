@@ -1,0 +1,15 @@
+[BITS 32] ; Assim como nos codigos anteriores, estamos avisando ao montador que este codigo e endereçado em 32 bits
+
+; E importante notar que, dentro dessa secao, utilizaremos registradores estendidos ("EAX", "EBX"...) e que o endereço "0xb8000" corresponde ao segmento de memoria onde os dados de video sao trabalhados.
+print32:
+	MOV EDX, 0xb8000 ; estamos movendo o registrador EDX para o inicio do segmento de video
+	MOV AL, [EBX] ; atribuindo o valor do que esta no registrador "EBX" para AL, para impressao
+	CMP AL, 0 ; comparando o registrador para verificar se chegamos ao final da string
+	JMP back32 ; caso sim, termina a subrotina
+	MOV [EDX], AX ; Estamos armazenando o caractere e seus atributos no seguinte segmento de memoria de video
+	ADD EBX, 1 ; Prosseguindo ao proximo caractere
+	ADD EDX, 2 ; Prosseguindo a proxima regiao de memoria de video
+	JMP print32
+
+back32:
+	ret

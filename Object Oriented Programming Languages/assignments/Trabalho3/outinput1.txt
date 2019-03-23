@@ -1,0 +1,17 @@
+
+
+Bem vindo! Esse programa irá simular um comportamento de caches de processadores, utilizando políticas de escrita 'Writethrough' e 'Writeback'. Nas próximas 4 requisições, insira, respectivamente, o valor de endereçamento (para cache e memória principal), o número máximo de blocos da memória principal, o número máximo de blocos da memória cache e o número de processadores presente no simulador (e, consequentemente, o número de caches do sistema). Tenha em mente que todas as caches estão inicialmente vazias, e os valores armazenados na memória principal são NULL. Agora, por favor, insira os valores: 
+
+Esses são os resultados para a execução utilizando a política de cache Writethrough: 
+Numero de acessos à memória principal para leitura: 662
+Numero de acessos à memória principal para escrita: 943
+Numero de HITS de leitura ou escrita na cache: 857
+Numero de MISSES de leitura ou escrita na cache: 780
+Numero de substituições de blocos de cache: 923
+
+Esses são os resultados para a execução utilizando a política de cache Writeback: 
+Numero de acessos à memória principal para leitura: 662
+Numero de acessos à memória principal para escrita: 290
+Numero de HITS de leitura ou escrita na cache: 857
+Numero de MISSES de leitura ou escrita na cache: 780
+Numero de substituições de blocos de cache: 923

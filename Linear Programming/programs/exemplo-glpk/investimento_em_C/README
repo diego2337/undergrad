@@ -1,0 +1,12 @@
+para compilar um programa diferente que investimento.c, digamos bla.c, faça:
+make program=bla
+
+para executar o programa gerado por investimento_v2.c passe o nome do arquivo de entrada que contém a especificacao dos fundos de investimento (por exemplo, exemplo_investimento.txt):
+
+./investimento_v2-DEBUG exemplo_investimento.txt
+
+O formato do arquivo de entrada é:
+n m
+rendimento maturacao classificacao, um para cada fundo (1, 2, 3, etc)
+
+na classificacao coloque apenas o primeiro caracter da classificacao como, por exemplo, m para muito bom. Veja o arquivo exemplo_investimento.txt.

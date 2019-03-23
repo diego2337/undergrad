@@ -1,0 +1,11 @@
+Para resolver o investimento.lp faça:
+  glpsol investimento.lp --cpxlp -o saida
+confira o resultado em saida: faça less saida e veja o valor da solução e o valor das variáveis ótimas!
+
+Para resolver a coloracao.lp faça:
+  glpsol coloracao.lp --cpxlp -o saida_coloracao
+
+Confira o resultado e veja que a solução não é válida! Há valor não inteiro (um vértice colorido em 50% com uma cor!).
+
+Veja coloracao_inteira.lp para ver como tratar variáveis inteiras no glpk.
+Depois resolva e confira o resultado.

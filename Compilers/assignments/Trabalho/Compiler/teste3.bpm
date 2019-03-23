@@ -1,0 +1,35 @@
+class TestA
+{
+	constructor(int var3, int var4)
+	{
+		// ignorar
+		/* ignorar */
+		for(var3 = +12/-3;+5%+2>=+1;var3 = +1)
+		{
+			var4 = +1.24E+26;
+		}
+	}
+}
+
+class Test
+{
+	int var, var2;
+	constructor(int var3, int var4)
+	{
+		read var3;
+		var3 = + var4;
+	}
+	string ret(int var, int var2)
+	{
+		if(+ var > + var2)
+		{
+			var = + var2;
+		}
+		else
+		{
+			var2 = + var;
+		}
+	}
+}
+
+

@@ -1,0 +1,17 @@
+Write Back
+Numero de Read Miss: 2460
+Numero de Read Hit: 114
+Numero de Write Hit: 104
+Numero de Write Miss: 2442
+Numero de acessos a MP na escrita: 3235
+Numero de acessos a MP na leitura: 1645
+Numero de substituições 3235
+
+Write Through
+Numero de Read Miss: 2460
+Numero de Read Hit: 114
+Numero de Write Hit: 104
+Numero de Write Miss: 2442
+Numero de acessos a MP na escrita: 4167
+Numero de acessos a MP na leitura: 1645
+Numero de substituições 3235

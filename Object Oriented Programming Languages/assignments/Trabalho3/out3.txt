@@ -1,0 +1,1908 @@
+0R0 0 miss
+0R1 0 miss
+0R2 0 miss
+0R3 0 miss
+0R4 0 miss
+0R5 0 miss
+0R6 0 miss
+0R7 0 miss
+0R8 0 miss
+0R9 0 miss
+0R10 0 miss
+0R11 0 miss
+0R12 0 miss
+0R13 0 miss
+0R14 0 miss
+0R15 0 miss
+0R16 0 miss
+0R17 0 miss
+0R18 0 miss
+0R19 0 miss
+0R20 0 miss
+0R21 0 miss
+0R22 0 miss
+0R23 0 miss
+0R24 0 miss
+0R25 0 miss
+0R26 0 miss
+0R27 0 miss
+0R28 0 miss
+0R29 0 miss
+0R30 0 miss
+0R31 0 miss
+0R32 0 miss
+0R33 0 miss
+0R34 0 miss
+0R35 0 miss
+0R36 0 miss
+0R37 0 miss
+0R38 0 miss
+0R39 0 miss
+0R40 0 miss
+0R41 0 miss
+0R42 0 miss
+0R43 0 miss
+0R44 0 miss
+0R45 0 miss
+0R46 0 miss
+0R47 0 miss
+0R48 0 miss
+0R49 0 miss
+0R50 0 miss
+0R51 0 miss
+0R52 0 miss
+0R53 0 miss
+0R54 0 miss
+0R55 0 miss
+0R56 0 miss
+0R57 0 miss
+0R58 0 miss
+0R59 0 miss
+0R60 0 miss
+0R61 0 miss
+0R62 0 miss
+0R63 0 miss
+0R64 0 miss
+0R65 0 miss
+0R66 0 miss
+0R67 0 miss
+0R68 0 miss
+0R69 0 miss
+0R70 0 miss
+0R71 0 miss
+0R72 0 miss
+0R73 0 miss
+0R74 0 miss
+0R75 0 miss
+0R76 0 miss
+0R77 0 miss
+0R78 0 miss
+0R79 0 miss
+0R80 0 miss
+0R81 0 miss
+0R82 0 miss
+0R83 0 miss
+0R84 0 miss
+0R85 0 miss
+0R86 0 miss
+0R87 0 miss
+0R88 0 miss
+0R89 0 miss
+0R90 0 miss
+0R91 0 miss
+0R92 0 miss
+0R93 0 miss
+0R94 0 miss
+0R95 0 miss
+0R96 0 miss
+0R97 0 miss
+0R98 0 miss
+0R99 0 miss
+1W0 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W1 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W2 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W3 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W4 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W5 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W6 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W7 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W8 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W9 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W10 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W11 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W12 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W13 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W14 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W15 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W16 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W17 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W18 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W19 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W20 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W21 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W22 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W23 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W24 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W25 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W26 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W27 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W28 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W29 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W30 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W31 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W32 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W33 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W34 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W35 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W36 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W37 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W38 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W39 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W40 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W41 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W42 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W43 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W44 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W45 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W46 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W47 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W48 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W49 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W50 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W51 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W52 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W53 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W54 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W55 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W56 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W57 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W58 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W59 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W60 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W61 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W62 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W63 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W64 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W65 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W66 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W67 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W68 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W69 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W70 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W71 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W72 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W73 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W74 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W75 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W76 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W77 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W78 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W79 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W80 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W81 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W82 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W83 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W84 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W85 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W86 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W87 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W88 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W89 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W90 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W91 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W92 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W93 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W94 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W95 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W96 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W97 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W98 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W99 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+foi
+foi
+1W99 1 
+Directory getCacheList: 1
+Writehitone sinal 0. So pode entrar aqui em writethrough.
+hit
+Vamos começar WriteBack.
+0R0 0 miss
+0R1 0 miss
+0R2 0 miss
+0R3 0 miss
+0R4 0 miss
+0R5 0 miss
+0R6 0 miss
+0R7 0 miss
+0R8 0 miss
+0R9 0 miss
+0R10 0 miss
+0R11 0 miss
+0R12 0 miss
+0R13 0 miss
+0R14 0 miss
+0R15 0 miss
+0R16 0 miss
+0R17 0 miss
+0R18 0 miss
+0R19 0 miss
+0R20 0 miss
+0R21 0 miss
+0R22 0 miss
+0R23 0 miss
+0R24 0 miss
+0R25 0 miss
+0R26 0 miss
+0R27 0 miss
+0R28 0 miss
+0R29 0 miss
+0R30 0 miss
+0R31 0 miss
+0R32 0 miss
+0R33 0 miss
+0R34 0 miss
+0R35 0 miss
+0R36 0 miss
+0R37 0 miss
+0R38 0 miss
+0R39 0 miss
+0R40 0 miss
+0R41 0 miss
+0R42 0 miss
+0R43 0 miss
+0R44 0 miss
+0R45 0 miss
+0R46 0 miss
+0R47 0 miss
+0R48 0 miss
+0R49 0 miss
+0R50 0 miss
+0R51 0 miss
+0R52 0 miss
+0R53 0 miss
+0R54 0 miss
+0R55 0 miss
+0R56 0 miss
+0R57 0 miss
+0R58 0 miss
+0R59 0 miss
+0R60 0 miss
+0R61 0 miss
+0R62 0 miss
+0R63 0 miss
+0R64 0 miss
+0R65 0 miss
+0R66 0 miss
+0R67 0 miss
+0R68 0 miss
+0R69 0 miss
+0R70 0 miss
+0R71 0 miss
+0R72 0 miss
+0R73 0 miss
+0R74 0 miss
+0R75 0 miss
+0R76 0 miss
+0R77 0 miss
+0R78 0 miss
+0R79 0 miss
+0R80 0 miss
+0R81 0 miss
+0R82 0 miss
+0R83 0 miss
+0R84 0 miss
+0R85 0 miss
+0R86 0 miss
+0R87 0 miss
+0R88 0 miss
+0R89 0 miss
+0R90 0 miss
+0R91 0 miss
+0R92 0 miss
+0R93 0 miss
+0R94 0 miss
+0R95 0 miss
+0R96 0 miss
+0R97 0 miss
+0R98 0 miss
+0R99 0 miss
+1W0 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W1 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W2 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W3 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W4 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W5 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W6 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W7 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W8 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W9 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W10 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W11 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W12 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W13 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W14 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W15 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W16 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W17 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W18 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W19 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W20 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W21 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W22 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W23 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W24 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W25 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W26 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W27 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W28 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W29 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W30 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W31 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W32 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W33 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W34 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W35 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W36 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W37 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W38 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W39 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W40 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W41 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W42 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W43 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W44 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W45 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W46 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W47 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W48 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W49 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W50 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W51 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W52 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W53 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W54 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W55 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W56 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W57 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W58 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W59 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W60 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W61 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W62 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W63 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W64 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W65 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W66 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W67 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W68 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W69 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W70 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W71 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W72 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W73 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W74 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W75 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W76 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W77 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W78 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W79 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W80 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W81 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W82 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W83 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W84 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W85 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W86 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W87 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W88 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W89 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W90 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W91 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W92 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W93 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W94 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W95 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W96 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W97 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W98 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W99 1 
+Directory getCacheList: 0
+
+Directory getCacheList: 0
+Foi aqui entrou
+Nao pode entrar aqui!
+foi
+foi
+1W99 1 
+Directory getCacheList: 1
+hit

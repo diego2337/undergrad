@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <?php include('view/header.php'); ?>
+    <div class="form2">
+        <div class="lerge-form">
+        <form class="form-horizontal" action="?action=insertTreinadorDB" method="post">
+            <legend>Cadastrar novo Treinador: </legend>
+
+            <label class="control-label" >Nome</label>
+            <input  class="form-control" type="text" name="nome">
+            <label class="control-label" >Login</label>
+            <input  class="form-control" type="text" name="login">
+ 	    <label class="control-label" >Senha</label>
+            <input  class="form-control" type="password" name="senha">
+            <label class="control-label">Numero insignas</label>
+                <input class="form-control" type="text" placeholder="0" name="insignas">
+            
+            
+            
+            <label class="control-label" >Qtd Pokemons Vistos </label>
+                <input class="form-control span2" type="number" placeholder="0" name="vistos">
+
+
+            
+            <label class="control-label">Sexo: </label>
+            <select class="form-control" name="sexo">
+                
+                <option value="F">Feminino</option>
+                <option value="M">Masculino</option>
+            </select>
+            
+	    
+            
+            <button type="submit" class="btn btn-primary btn-lg">Enviar!</button>
+        </form>
+        </div>
+    </div>
+    
+    <?php include 'view/footer.php';?>

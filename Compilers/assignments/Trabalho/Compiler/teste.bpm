@@ -1,0 +1,84 @@
+class TestA
+{
+	int i, j;
+	TestA du(double s, double t)
+	{
+		doub3[+i] = +j;
+		s.method[+10 + -9] = +10 - +9;
+		t[+2].method1.method2.method3[-9] = new s(+10%-5, +s.method[+1]);
+		if(+s.method[+1] >= +10*-2 - +5%-2)
+		{
+			break;
+		}
+	}
+}
+
+class Test
+{
+	int inteiro1, inteiro2, i, j;
+	string []str1, str2;
+	double []doub2, doub1;
+	
+	constructor(int arg1, int arg2)
+	{
+		TestB aaa;
+		double []doub3;
+		doub3 = + 1;
+		string []str1, str2, str3, agr1, agr2;
+		str1 = + "beaba";
+		i = + 0;
+		j = + 10;
+		
+		//Verificar 
+		agr1 = +(+10 + -9)*+2;
+		read agr2;
+		str1 = string[+10];
+		str2 = new TestA(+10/+5);
+		print - id + +10;
+		doubl3[+0] = + 10;
+		agr2 = + agr1;
+		
+		super(+arg1++1,-arg2--1); //acho que a super funciona mais ou menos assim
+		print + arg2;
+		
+		for(i = +0; +i < +j; i = +i + +1){
+		
+			doub3[+i] = +j;
+			
+		}
+		return +arg1;
+	}
+	TestA du(double s, double t)
+	{
+		int i, j;
+		doub3[+i] = +j;
+		s.method[+10 + -9] = +10 - +9;
+		t[+2].method1.method2.method3[-9] = new s(+10%-5, +s.method[+1]);
+		if(+s.method[+1] >= +10*-2 - +5%-2)
+		{
+			break;
+		}
+	}
+	
+	string ret(int var, int var2)
+	{	
+		if(+ var > + var2)
+		{
+			var = + var2;
+		}
+		else
+		{
+			var2 = + var;
+		}
+	}	
+}
+
+
+
+
+
+
+
+
+
+

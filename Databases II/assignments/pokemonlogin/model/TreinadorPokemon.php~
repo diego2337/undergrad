@@ -1,0 +1,13 @@
+<?php
+
+class TreinadorPokemon()
+{
+  private $id_treinador;
+  private $id_pokemon;
+  private $num_pokemon;
+  private $apelido;
+  private $level;
+
+}
+
+?>
