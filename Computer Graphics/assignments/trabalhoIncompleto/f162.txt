@@ -1,0 +1,33 @@
+<?xml version=“1.0” encoding=“utf-8”?>
+<rt>
+	<image>
+		<width>1240</width>
+		<height>768</height>
+	</image>
+	<camera>
+		<position>0 0 10</position>
+		<to>0 0 0</to>
+		<up>0 1 0</up>
+		<angle>60</angle>
+		<aspect>16:9</aspect>
+		<projection>perspective</projection>
+	</camera>
+	<scene name="simple - scene">
+		<background>0 0 0</background>
+		<ambient>0.76 0.76 0.76</ambient>
+		<mesh file="f-16.obj">
+			<transform>
+				<scale>1 1 1</scale>
+				<rotation>
+					<axis>0 0 0</axis>
+				</rotation>
+				<position>2 -4 -10</position>
+			</transform>
+		</mesh>	
+		<light>
+			<position>0 0 1 1</position>
+			<color>1 1 1</color>
+			<falloff>1</falloff>
+		</light>
+	</scene>
+</rt>

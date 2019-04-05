@@ -1,0 +1,90 @@
+<!-- <form action="?action=buscarQuestaoMateria" class="form-search" method="POST">
+                    <input class="input" id="busca" type="text" name="nome" placeholder="Prog, Compiladores...">
+                    <button class="btn" type="submit" id="list">Vai</button>
+            </form>    
+            
+            <table id="questoes" class="table">
+                <thead>
+                    <tr>
+                        <th>Matéria</th>
+                        <th>Dificuldade</th>
+                        <th>Ano</th>
+                        <th>-----</th>
+                    </tr>
+                </thead>
+                <tbody>
+                	<?php
+    		            foreach ($questoes as $q):
+    		                echo '<tr>';
+    		                    echo '<td> '.$q->getMateria().' </td>';
+    		                    echo '<td> '.$q->getDificuldade().' </td>';
+    		                    echo '<td> '.$q->getAno().' </td>';
+    		                    echo '<td><a class="btn" href="?action=mostrarQuestao&idQuestao=' . $q->getId() . '> Mais </a></td>';
+    		                echo '</tr>';
+    		            endforeach;
+                 	?>
+                </tbody>
+            </table> -->
+
+
+//arquivo insereQuestao.php
+
+<!-- <div class="input-group side">
+                    <input type="text" class="form-control" placeholder="Dificuldade" name="dificuldade">
+                </div> -->
+
+<!-- <div class="input-group side">
+                    <input type="text" class="form-control" placeholder="Acadêmica, POSCOMP..." name="tipoQuestao">
+                </div> -->
+
+
+MateriaDAO.php
+
+/* Aqui, iremos atualizar a quantidade de questões existentes em uma matéria */
+        public function update($element, $inc)
+        {
+            if(isset($element))
+            {
+                try
+                {
+                    /* O primeiro condicional indica que é um incremento da quantidade de questões da matéria */
+                    if($inc == 1)
+                    {
+                        $statement = $this->db->prepare("UPDATE Materia SET numQuestoes=numQuestoes+1 WHERE m_id=:m0");
+                    }
+                    else
+                    {
+                        $statement = $this->db->prepare("UPDATE Materia SET numQuestoes=numQuestoes-1 WHERE m_id=:m0");
+                    }
+                    $statement->bindParam(":m0", $element);
+                    $statement->execute();
+                    return 1;
+                }
+                catch(PDOException $e)
+                {
+                    echo $e->getMessage();
+                    return -1;
+                }
+            }
+            else
+                return -1;
+        }
+
+
+Controller.php
+
+inserirQuestaoDB
+/* Vamos agora incrementar o número de questões inseridas na tabela de matérias */
+            if($_SESSION['success'] == 1)
+            {
+                $materiaDAO = new MateriaDAO();
+                $update = $materiaDAO->update($m_id, 1);
+            }
+
+apagarQuestaoDB
+/* Vamos agora decrementar o número de questões inseridas na tabela de matérias */
+            if($_SESSION['remove'] == 1)
+            {
+                $materiaDAO = new MateriaDAO();
+                $update = $materiaDAO->update($m_id, 2);
+            }

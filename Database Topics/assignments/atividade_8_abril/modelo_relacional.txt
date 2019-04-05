@@ -1,0 +1,15 @@
+Esquema de mapeamento do modelo ER para o modelo relacional
+
+-- Obs: as chaves primárias descritas abaixo são identificadas por "(PK)" logo após seu nome, e as chaves estrangeiras são definidas por "(FK)".
+
+Funcionarios = (Mat_trabalho(PK), nome, idade, sexo, bairro, numero, rua, salario, cargo);
+Estoque = (S_id(PK), tipo_mantimento, num_local, qtde);
+Ingrediente = (I_id(PK), nome, descricao, preco, S_id(FK));
+Mesa = (Num_mesa(PK), qtde_pessoas, area_livre,  Mat_trabalho(FK));
+Pagamento = (P_id(PK), data, forma_pgmnto, valor, Num_mesa(FK));
+Cardapio = (C_id(PK), tipo_prato, nome_prato, desc, preco);
+Pedido = (O_id(PK), qtde_pratos, observacoes, valor_total, data_pedido, C_id(FK), Num_mesa(FK));
+Reserva = (R_id(PK), qtde_pessoas_reserva, data_reserva, Num_mesa(FK));
+Ingrediente_compoe_cardapio = (ICC_id(PK), C_id(FK), I_id(FK));
+Cardapio_compoe_pedido = (CCP_id(PK), O_id(FK), C_id(FK));
+Funcionario_atende_pedido = (FAP_id(PK), Mat_trabalho(FK), O_id(FK));

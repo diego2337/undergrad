@@ -1,0 +1,18 @@
+25) Exclusão de uma tupla da tabela Revendedoras:
+
+DELETE * FROM Revendedoras WHERE Revendedoras.cgc_revenda=188832;
+
+Após sua inserção, a mensagem retornada foi:
+
+26) Criação de um atributo na tabela "Automoveis":
+
+ALTER TABLE Automoveis ADD COLUMN Descricao VARCHAR(300) DEFAULT 'Descricao nao especificada';
+
+Após sua inserção, a mensagem retornada foi:
+
+
+27) Remoção de uma restrição de domínio:
+
+ALTER TABLE Consumidores DELETE COLUMN sexo;
+
+Após sua inserção, a mensagem retornada foi:

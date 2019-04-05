@@ -1,0 +1,61 @@
+Caso de Uso: Realizar Requisição
+Escopo: Sistema GENOP
+
+Atores: Funcionários de agências do Banco do Brasil.
+
+Interessados: Funcionários do ALMOX, transportadores, embaladores, fabricantes de materiais.
+
+Pré-condições: O usuário deve possuir o sistema GENOP instalado em seu dispositivo, que pode ser obtido por download.
+
+Pós condições: O usuário realizou a requisição e irá aguardar o recebimento de seus materiais.
+
+Fluxo Principal:
+
+1.  [EV] O usuário abre o sistema GENOP.
+2.  [EV] O usuário autentica-se no início do sistema e é redirecionado de acordo com sua ocupação (funcionário de agência ou ALMOX).
+3.  [RS] O usuário é informado de suas oções: realizar requisição, consultar recebimentos, consultar empresas, consultar empresas de logística, consultar materiais e consultar funcionários.
+4.  [EV] O usuário seleciona realizar requisição.
+5.  [RS] O usuário é informado dos diferentes requisitos que deve preencher para cumprir uma requisição.
+6.  [EV] O usuário informa seu nome.
+7.  [EV] O usuário informa qual GENOP ele deseja que atenda sua requisição.
+8.  [EV] O usuário seleciona um material:
+	- Seleção: Ver variante 7.1.
+	- Finalização: Ver variante 7.2.
+9.  [RS] É informado ao usuário o somatório do peso dos materiais.
+10. [EV] O usuário informa a data prevista de entrega de sua requisição.
+11. [EV] O usuário informa a empresa embaladora dos materiais.
+12. [EV] O usuário informa a empresa transportadora dos materiais.
+13. [EV] O usuário informa uma breve descrição de sua requisição.
+14. [RS] É preenchido ao usuário a data de solicitação da requisição.
+10. [EV] O usuário confirma a requisição.
+12. [RS] O usuário é redirecionado para o início do sistema.
+13. [RS] O usuário é informado de que sua requisição foi realizada com sucesso.
+14. [EV] O usuário fecha o sistema.
+
+Fluxo alternativo - Tratamento de exceções:
+
+11a. A embaladora não tem quantidade de caminhões suficiente.
+11a.1 O usuário recebe a seguinte mensagem: "não há caminhões para a realização de sua tarefa. Tente outra empresa de logística ou outra data".
+11a.2 Volte ao passo 11.
+
+11b. A embaladora não tem suporta o somatório de peso.
+11b.1 O usuário recebe a seguinte mensagem: "não há caminhões com peso suficiente para a realização de sua tarefa. Tente outra empresa de logística.".
+11b.2 Volte ao passo 11.
+
+12a. A transportadora não tem quantidade de caminhões suficiente.
+12a.1 O usuário recebe a seguinte mensagem: "não há caminhões para a realização de sua tarefa. Tente outra empresa de logística ou outra data".
+12a.2 Volte ao passo 11.
+
+12b. A transportadora não tem suporta o somatório de peso.
+12b.1 O usuário recebe a seguinte mensagem: "não há caminhões com peso suficiente para a realização de sua tarefa. Tente outra empresa de logística.".
+12b.2 Volte ao passo 11.
+
+2a. O usuário não está cadastrado.
+2a.1 O usuário realiza seu cadastro no Sistema GENOP.
+2a.2 Volte ao passo 2.
+
+Variantes:
+8.1: Seleção:
+	8.1.1. O usuário seleciona um material, e define a quantidade que ele deseja daquele material. Ele deseja selecionar outros materiais. Continue no passo 8.
+8.2: Finalização:
+	8.2.1. O usuário finaliza a seleção de materiais. Vá para o passo 9.

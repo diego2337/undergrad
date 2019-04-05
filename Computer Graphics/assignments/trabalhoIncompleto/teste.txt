@@ -1,0 +1,48 @@
+<?xml version=“1.0” encoding=“utf-8”?>
+<rt>
+	<image>
+		<width>1240</width>
+		<height>768</height>
+	</image>
+	<camera>
+		<position>0 0 10</position>
+		<to>0 0 1</to>
+		<up>0 1 0</up>
+		<angle>90</angle>
+		<aspect>16:9</aspect>
+		<projection>parallel</projection>
+	</camera>
+	<scene name="simple - scene">
+		<background>0 0 0</background>
+		<ambient>0.5 0.5 0.5</ambient>
+		<mesh file="triangle.obj">
+			<transform>
+				<scale>0.5 0.5 0.5</scale>
+				<rotation>
+					<axis>0 0 0</axis>
+				</rotation>
+				<position>0 0 0</position>
+			</transform>
+			<material>
+				<ambient>0.7 0.5 0.3</ambient>
+				<diffuse>0.5 0 0</diffuse>
+				<spot>0.3 0 0</spot>
+				<shine>10</shine>
+			</material>
+		</mesh>
+		<mesh file="triangle.obj">
+			<transform>
+				<scale>0.5 0.5 0.5</scale>
+				<rotation>
+					<axis>0 0 -1</axis>
+				</rotation>
+				<position>0 0 0</position>
+			</transform>
+		</mesh>
+		<light>
+			<position>0 0 10 1</position>
+			<color>1 0.4 1</color>
+			<falloff>1</falloff>
+		</light>
+	</scene>
+</rt>

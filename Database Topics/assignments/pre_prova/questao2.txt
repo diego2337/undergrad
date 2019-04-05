@@ -1,0 +1,136 @@
+
+
+----PERGUNTAR SOBRE ON DELETE RESTRICT E ON UPDATE CASCADE----
+
+
+
+1) Inserção de tupla:
+INSERT INTO Automoveis (codigo, fabricante, modelo, ano, pais, preco_tabela) VALUES (036588, 'Volkswagen', 'Gol', 2011, 'Alemanha', 23000);
+
+Após sua inserção, a mensagem retornada foi:
+
+2) Inserção de tupla:
+INSERT INTO Automoveis (codigo, fabricante, modelo, ano, preco_tabela) VALUES (047699, 'Chevrolet', 'Corsa', 2001, 10000);
+
+Após sua inserção, a mensagem retornada foi:
+
+3) Tentativa de inserção de tupla:
+INSERT INTO Automóveis (codigo, fabricante, modelo, ano, preco_tabela) VALUES (015622, 'Fiat', 'Idea', 2010, -10000);
+
+Após sua tentativa de inserção, a mensagem retornada foi:
+
+4) Inserção de tupla:
+INSERT INTO Automoveis (codigo, fabricante, modelo, ano, preco_tabela) VALUES (195866, 'Audi', 'A4', 2010, 50000);
+
+Após sua inserção, a mensagem retornada foi:
+
+5) Atualização de tupla:
+UPDATE Automoveis SET Automoveis.preco_tabela = 40000 WHERE Automoveis.codigo=195866;
+
+6) Atualização de tupla:
+UPDATE Automoveis SET Automoveis.modelo = 'Celta', Automoveis.ano = 2011, Automoveis.preco_tabela = 20000 WHERE Automoveis.codigo=047699;
+
+7) Inserção de tupla:
+INSERT INTO Revendedoras (cgc, nome, nome_proprietario, cidade, estado) VALUES (111333, 'Discautol', 'Perseu', 'Campo Grande', 'MS');
+
+Após sua inserção, a mensagem retornada foi:
+
+8) Inserção de tupla:
+INSERT INTO Revendedoras (cgc, nome, nome_proprietario) VALUES (123333, 'Smart', 'Sócrates');
+
+Após sua inserção, a mensagem retornada foi:
+
+9) Tentativa de inserção de tupla:
+INSERT INTO Revendedoras (cgc, nome_proprietario) VALUES (119999, 'Aristóteles');
+
+Após sua tentativa de inserção, a mensagem retornada foi:
+
+
+10) Inserção de tupla:
+INSERT INTO Revendedoras (cgc, nome, nome_proprietario) VALUES (188832, 'Autobel', 'César');
+
+Após sua inserção, a mensagem retornada foi:
+
+11) Atualização de tupla:
+
+UPDATE Revendedoras SET Revendedoras.nome_proprietario="Homero" WHERE Revendedoras.cgc=111333;
+
+Após sua inserção, a mensagem retornada foi:
+
+12) Atualização de tupla:
+
+UPDATE Revendedoras SET Revendedoras.cidade="Florianopolis", Revendedoras.estado="Santa Catarina";
+
+Após sua inserção, a mensagem retornada foi:
+
+13) Inserção de tupla:
+
+INSERT INTO Consumidores (identidade, nome, sobrenome, sexo) VALUES (8855, 'Jose', 'Juvenal Junior', 'M');
+
+Após sua inserção, a mensagem retornada foi:
+
+14) Inserção de tupla:
+
+INSERT INTO Consumidores (identidade, nome, sexo) VALUES (8777, 'Janaína', 'F');
+
+Após sua inserção, a mensagem retornada foi:
+
+15) Tentativa de inserção de tupla:
+
+INSERT INTO Consumidores (identidade, nome) VALUES (8989, 'Joao');
+
+Após sua tentativa de inserção, a mensagem retornada foi:
+
+16) Inserção de tupla:
+
+INSERT INTO Consumidores (identidade, nome, sexo) VALUES (4857, 'Caio', 'M');
+
+Após sua inserção, a mensagem retornada foi:
+
+17) Atualização de tupla:
+
+UPDATE Consumidores SET Consumidores.sobrenome='Lima' WHERE Consumidores.identidade=8777;
+
+Após sua inserção, a mensagem retornada foi:
+
+18) Atualização de tupla:
+
+UPDATE Consumidores SET Consumidores.sobrenome='Graco' WHERE Consumidores.identidade=4857;
+
+Após sua inserção, a mensagem retornada foi:
+
+19) Inserção de tupla:
+
+INSERT INTO Negocios (identidade_consumidor, cgc_revenda, codigo_auto, ano_auto, data, preco) VALUES (8855, 111333, 195866, 2010, now(), 51760);
+
+Após sua inserção, a mensagem retornada foi:
+
+20) Inserção de tupla:
+
+INSERT INTO Negocios (identidade_consumidor, cgc_revenda, codigo_auto, ano_auto, data, preco) VALUES (4857, 123333, 047699, 2011, now(), 21760);
+
+21) Tentativa de inserção de tupla:
+
+INSERT INTO Negocios (identidade_consumidor, cgc_revenda) VALUES (4857, 123333);
+
+Após sua tentativa de inserção, a mensagem retornada foi:
+
+
+22) Inserção de tupla:
+
+INSERT INTO Negocios (identidade_consumidor, cgc_revenda, codigo_auto, ano_auto, data, preco) VALUES (4857, 111333, 036588, 2011, now(), 23111);
+
+Após sua inserção, a mensagem retornada foi:
+
+23) Atualização de tupla:
+
+UPDATE Negocios SET Negocios.preco=50700 WHERE Negocios.identidade_consumidor=8855 AND Negocios.cgc_revenda=111333 AND Negocios.codigo_auto=195866 AND Negocios.ano_auto=2010;
+
+Após sua inserção, a mensagem retornada foi:
+
+24) Atualização de tupla:
+
+UPDATE Negocios SET Negocios.preco=22000 WHERE Negocios.identidade_consumidor=4857 AND Negocios.cgc_revenda=111333 AND Negocios.codigo_auto=047699 AND Negocios.ano_auto=2011;
+
+Após sua inserção, a mensagem retornada foi:
+

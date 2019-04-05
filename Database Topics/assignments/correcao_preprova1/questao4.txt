@@ -1,0 +1,53 @@
+GRANT SELECT ON AUTOMOVEIS TO hercules;
+
+CREATE OR REPLACE VIEW "revendedorasMS" (
+    cgc,
+    nome,
+    nome_proprietario,
+    cidade,
+    estado)
+AS
+SELECT r.cgc, r.nome, r.nome_proprietario, r.cidade, r.estado
+FROM revendedoras r
+WHERE (r.estado = 'MS'::bpchar);
+
+
+GRANT SELECT ON "revendedorasMS" TO hercules;
+
+
+CREATE OR REPLACE VIEW "consumidoresFemininos" (
+    identidade,
+    nome,
+    sobrenome,
+    sexo)
+AS
+SELECT c.identidade, c.nome, c.sobrenome, c.sexo
+FROM consumidores c
+WHERE (c.sexo = 'F'::bpchar);
+
+GRANT SELECT ON "consumidoresFemininos" TO hercules;
+
+
+CREATE OR REPLACE VIEW "precoNegocios2012" (
+    preco)
+AS
+SELECT n.preco
+FROM negocios n
+WHERE (n.ano_auto = 2012);
+
+
+GRANT SELECT ON "precoNegocios2012" TO hercules;
+
+
+GRANT UPDATE(codigo, preco_tabela) ON automoveis TO hercules;
+
+
+REVOKE  UPDATE(codigo,preco_tabela) ON automoveis FROM hercules;
+
+REVOKE SELECT ON "precoNegocios2012" FROM hercules;
+
+REVOKE SELECT ON "consumidoresFemininos" FROM hercules;
+
+REVOKE SELECT ON "revendedorasMS" FROM hercules;
+
+REVOKE SELECT ON automoveis FROM hercules;

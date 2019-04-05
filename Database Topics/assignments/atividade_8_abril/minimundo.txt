@@ -1,0 +1,20 @@
+Minimundo: Dinner
+
+    O restaurante Dinner deseja implementar um sistema capaz de prover informações acerca de quantidade de funcionários que trabalham no estabelecimento, o que o restaurante
+possui armazenado em seus estoques (como alimentos, utensílios, lençóis e temperos), bem como informações a respeito de reservas solicitadas a mesas e ordens de solicitação em cada mesa. 
+Para fins de análise estatística, esse sistema também armazenará, caso o cliente autorize, preços e formas de pagamento.
+
+  Os funcionários estão contidos dentro de um restaurante, sendo identificados por uma matrícula de trabalho, nome, idade, sexo, endereco (bairro, numero e rua), salário e cargo.
+  No estabelecimento, temos também estoques, que estão espalhados por diversos cômodos do estabelecimento. Esses possuem um identificador associado, tipo de mantimento (utensílios, bebidas, 
+ingredientes), número do cômodo em que se encontra e quantidade disponível total de cada utensílio. Nesse contexto, ingredientes são definidos possuindo um identificador, um nome, 
+breve descrição e preço unitário.
+  Existem uma ou mais mesas contidas em uma filial, e ela possui um identificador (que é o número da mesa), quantidade de pessoas que podem ser alocadas a ela e 
+um sinalizador que indica se essa mesa está em uma área para reservas ou em uma área livre (sem reserva). Cada uma dessas mesas é atendida por um garçom (ou garçonete), e ao final de sua 
+utilização ela irá gerar uma conta. Essa conta comporá um pagamento (para fins de análises futuras), que terá um identificador, data em que foi gerada, forma de pagamento e valor. Uma mesa 
+é composta de diversos pedidos. Um pedido inclui data de geração, quantidade de pratos, qual cardápido é associado a ele, uma descrição contendo o nome 
+desses pratos, informações adicionais providas pelo consumidor em relação aos pratos e o valor total gerado. Esses pedidos podem ser atentidos por diversos funcionários, desde cozinheiros 
+(que irão consultá-los para preparar os pratos), garçons e garçonetes (que irão verificar o tempo decorrido desde a concepção do pedido).
+  Uma reserva será atribuída a uma mesa, aonde um identificador é atribuído a essa entidade, além da quantidade de pessoas e data de reserva, para prover
+análise estatísticas futuramente.
+  Cardápios são dispostos para o restaurante, aonde cada um contém pratos, possuindo um identificador, qual o tipo do prato a ser servido (massas, frios, petiscos, entre outros), seu nome,
+uma breve descrição desse, ingredientes que compõem esse prato e preço.

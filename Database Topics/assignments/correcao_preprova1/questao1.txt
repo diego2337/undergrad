@@ -1,0 +1,59 @@
+CREATE TABLE automoveis (
+    codigo integer NOT NULL,
+    fabricante varchar(128) NOT NULL,
+    modelo varchar(64) NOT NULL,
+    ano integer NOT NULL,
+    pais varchar(32) NOT NULL,
+    preco_tabela double precision NOT NULL,
+    CONSTRAINT automoveis_chk CHECK (preco_tabela > 0)
+);
+
+
+CREATE TABLE consumidores (
+    identidade varchar(64) NOT NULL,
+    nome varchar(128) NOT NULL,
+    sobrenome varchar(128) NOT NULL,
+    sexo character(1) NOT NULL,
+    CONSTRAINT consumidores_chk CHECK ( sexo IN ('M', 'F') )
+);
+
+CREATE TABLE negocios (
+    identidade_consumidor varchar(64) NOT NULL,
+    cgc_revenda integer NOT NULL,
+    codigo_auto integer NOT NULL,
+    ano_auto integer NOT NULL,
+    "data" timestamp DEFAULT now() NOT NULL,
+    preco double precision NOT NULL,
+    CONSTRAINT negocios_chk CHECK (preco > 0)
+);
+
+CREATE TABLE revendedoras (
+    cgc integer NOT NULL,
+    nome varchar(128) NOT NULL,
+    nome_proprietario varchar(128) NOT NULL,
+    cidade varchar(128) NOT NULL,
+    estado CHAR(2) NOT NULL
+);
+
+
+ALTER TABLE ONLY automoveis
+    ADD CONSTRAINT automoveis_idx PRIMARY KEY (codigo, ano);
+
+ALTER TABLE ONLY consumidores
+    ADD CONSTRAINT consumidores_pkey PRIMARY KEY (identidade);
+
+ALTER TABLE ONLY negocios
+    ADD CONSTRAINT negocios_idx PRIMARY KEY (ano_auto, codigo_auto, cgc_revenda, identidade_consumidor);
+
+ALTER TABLE ONLY revendedoras
+    ADD CONSTRAINT revendedoras_pkey PRIMARY KEY (cgc);
+
+ALTER TABLE ONLY negocios
+    ADD CONSTRAINT negocios_fk FOREIGN KEY (identidade_consumidor) REFERENCES consumidores(identidade) ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE ONLY negocios
+    ADD CONSTRAINT negocios_fk1 FOREIGN KEY (cgc_revenda) REFERENCES revendedoras(cgc) ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE ONLY negocios
+    ADD CONSTRAINT negocios_fk2 FOREIGN KEY (codigo_auto, ano_auto) REFERENCES automoveis(codigo, ano) ON UPDATE CASCADE ON DELETE RESTRICT;
+

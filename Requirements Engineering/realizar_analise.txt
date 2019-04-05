@@ -1,0 +1,42 @@
+Caso de Uso: Realizar Análise
+Escopo: Sistema GENOP
+
+Atores: Funcionários do ALMOX.
+
+Interessados: Funcionários de agências do Banco do Brasil e laboratórios, transportadores, embaladores.
+
+Pré-condições: O usuário deve possuir o sistema GENOP instalado em seu dispositivo, que pode ser obtido por download.
+
+Pós condições: O usuário definiu a análise a ser realizada.
+
+Fluxo Principal:
+
+1.  [EV] O usuário abre o sistema GENOP.
+2.  [EV] O usuário autentica-se no início do sistema e é redirecionado de acordo com sua ocupação (funcionário de agência ou ALMOX).
+3.  [RS] O usuário é informado de suas oções: realizar análise, realizar recebimento, consultar requisições, consultar recebimentos, consultar empresas, consultar empresas de logística, consultar materiais e consultar funcionários.
+4.  [EV] O usuário seleciona realizar análise.
+5.  [RS] O usuário é informado dos diferentes requisitos que deve preencher para completar um recebimento.
+6.  [EV] O usuário informa seu nome.
+7.  [RS] O sistema informa qual o GENOP que o usuário pertence.
+8.  [EV] O usuário seleciona um material:
+	- Seleção: Ver variante 7.1.
+	- Finalização: Ver variante 7.2.
+9.  [EV] O usuário informa qual a empresa de logística que trouxe os materiais.
+10. [RS] É informado ao usuário o somatório do peso dos materiais.
+10. [EV] O usuário confirma a análise.
+12. [RS] O usuário é redirecionado para o início do sistema.
+13. [RS] O usuário é informado de que sua análise foi cadastrada com sucesso.
+14. [EV] O usuário fecha o sistema.
+
+Fluxo alternativo - Tratamento de exceções:
+
+2a. O usuário não está cadastrado.
+2a.1 O usuário realiza seu cadastro no Sistema GENOP.
+2a.2 Volte ao passo 2.
+
+Variantes:
+
+8.1: Seleção:
+	8.1.1. O usuário seleciona um material, e define a quantidade recebida daquele material. Ele deseja selecionar outros materiais. Continue no passo 8.
+8.2: Finalização:
+	8.2.1. O usuário finaliza a seleção de materiais. Vá para o passo 9.

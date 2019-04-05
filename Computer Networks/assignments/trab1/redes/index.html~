@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Minha primeira página web </title>
+		<meta charset = "UTF-8" >
+		<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+	</head>
+	<body>
+		<h1> Curso: Ciência da Computação </h1>
+		<div class="formacao"> 
+			<h2 class="uma"> 
+				Atuação no mercado de trabalho: 
+			</h2> 
+			<ul> 
+				 <li>Desenvolver pesquisa em Ciência da Computação em institutos de pesquisa e universidades e atuar no desenvolvimento de aplicativos e administração de rede.</li>
+			</ul>
+		</div>
+		<div class="interesse"> 
+			<h2 class="duas"> 
+				Categoria: 
+			</h2> 
+			<ul> 
+				<li>Grande área: Ciências exatas e da Terra </li>
+				<li> Área: Ciência da Computação </li>
+			</ul> 
+		</div>
+		<div class="image">
+			<img src="facom.png" alt="Imagem" height="120" width="120">
+		</div>
+	</body>
+</html>

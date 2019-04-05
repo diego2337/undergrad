@@ -1,0 +1,18 @@
+28) Autorização de seleção de qualquer tupla na tabela Automoveis para hercules:
+
+GRANT SELECT * ON TABLE Automoveis TO hercules;
+
+Após sua inserção, a mensagem retornada foi:
+
+
+29) Autorização de seleção de revendedoras somente no estado de 'MS' para hercules:
+
+CREATE VIEW ms AS SELECT * FROM Revendedoras WHERE Revendedoras.estado='MS';
+
+Após sua inserção, a mensagem retornada foi:
+
+GRANT ms ON DATABASE bd_preProvaP1_201219040037 TO hercules;
+
+Após sua inserção, a mensagem retornada foi:
+
+30) Autorização de seleção 

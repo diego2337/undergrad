@@ -1,0 +1,3 @@
+all:
+	gcc -std=c99 -g -o client rbd_client.c rbd_clnt.c rbd_cif.c rbd_xdr.c
+	gcc -std=c99 -g -o server rbd_srp.c rbd_svc.c rbd_sif.c rbd_xdr.c

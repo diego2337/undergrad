@@ -1,0 +1,23 @@
+PARA PARALELOS
+Entender os algoritmos - 5 mins (cada um)
+Executar os algoritmos - 15 mins (cada um)
+Decorar o tempo paralelo - 5 mins (cada um)
+16 algoritmos - 7 horas, aproximadamente (se possível reduzir esse tempo)
+Depois disso, relembrar eles e refazer exercícios do livro
+Relembrá-los - 5 mins (cada um)
+
+1. Multiplicação de matrizes
+	1.1. Matriz X Vetor
+		1.1.1 1D
+		1.1.2 2D
+	1.2. Matriz X Matriz
+		1.2.1. 2D
+		1.2.2. 3D
+
+
+
+PARA DESAFIOS
+Relembrar o que fizemos - 10 mins (cada um)
+Entender problemas de combinatória - 15 mins (cada um)
+Fazer exercícios - 15 mins (cada um)
+Uma hora do que fizemos mais duas horas de combinatória - 3 horas

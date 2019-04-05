@@ -1,0 +1,61 @@
+Caso de uso: Reservar veículo
+Escopo: Sistema de locação de veículos "Dirija"
+
+Ator principal: Funcionário do estabelecimento pertencente à franquia Dirija.
+Lista de interessados: Cliente que deseja utilizar os serviços prestados pelo estabelecimento e gerente do estabelecimento.
+
+Pré-condições: O sistema deve estar devidamente instalado e funcional na máquina em questão, o cliente já deve ter especificado qual automóvel ele está interessado em retirar e o funcionário deve estar autenticado para a realização da transação.
+Pós-condições: O funcionário registrou uma reserva com sucesso e o cliente sai com o automóvel definido no processo.
+
+Requisitos correlacionados: B.2-10, B.2-13 e C (com base no documento de requisitos gerado).
+Lista de variantes tecnológicas: Não há.
+
+Fluxo principal:
+
+1. [EV] O usuário realiza a consulta do nome do cliente.
+2. [RS] O sistema indica ao usuário uma lista com nomes que ele requisitou.
+3. [EV] O usuário seleciona o cliente em questão.
+4. [EV] O usuário realiza a consulta do chassi do veículo.
+5. [RS] O sistema retorna ao usuário o veículo correspondente.
+6. [EV] O usuário informa o estabelecimento de onde a reserva está sendo realizada.
+7. [EV] O usuário informa o estabelecimento aonde será feita a devolução do automóvel.
+8. [EV] O usuário informa a data de retirada do veículo.
+9. [EV] O usuário informa a data de de devolução do veículo.
+10.[EV] O usuário informa a forma de pagamento pelos serviços prestados:
+	- À vista: Ver variante 10.1.
+	- À prazo: Ver variante 10.2.
+11.[RS] O sistema calcula para o usuário o valor total da reserva do automóvel.
+12.[EV] O usuário clica no botão "Reservar" e finaliza a reserva.
+
+Tratamento de exceções:
+2a. O cliente não está cadastrado.
+1. O usuário fecha o processamento em questão e seleciona a opção correspondente ao cadastro de clientes.
+2. O usuário procede de acordo com o caso de uso <underline>Gerenciar clientes</underline>.
+3. Volte ao passo 1 do fluxo principal.
+
+5a. O chassi do veículo não foi encontrado.
+1. O usuário fecha o processamento em questão e seleciona a opção correspondente ao cadastro de veículos.
+2. O usuário procede de acordo com o caso de uso <underline>Gerenciar veículos</underline>.
+3. Volte ao passo 4 do fluxo principal.
+
+6a. O estabelecimento não foi cadastrado.
+1. O usuário fecha o processamento em questão e informa ao cliente que o estabelecimento não existe.
+2. O usuário verifica com o gerente se o estabelecimento realmente não existe ou se deixou de ser incluído.
+3. Se o estabelecimento existir, o funcionário requisita ao gerente que atualize os estabelecimentos (através do caso de uso <underline>Gerenciar estabelecimentos</underline>), caso contrário o usuário requisita ao cliente um novo estabelecimento para retirada.
+4. Volte ao passo 6 do fluxo principal.
+
+7a. O estabelecimento não foi cadastrado.
+1. O usuário fecha o processamento em questão e informa ao cliente que o estabelecimento não existe.
+2. O usuário verifica com o gerente se o estabelecimento realmente não existe ou se deixou de ser incluído.
+3. Se o estabelecimento existir, o funcionário requisita ao gerente que atualize os estabelecimentos (através do caso de uso <underline>Gerenciar estabelecimentos</underline>), caso contrário o usuário requisita ao cliente um novo estabelecimento para devolução.
+4. Volte ao passo 7 do fluxo principal.
+
+11a. O cliente não concorda com o valor total da reserva.
+1. O usuário pergunta ao cliente se ele deseja retirar outro carro, caso sim, o usuário deve especificar o automóvel de interesse e volta-se ao passo 4. Caso contrário, a transação é cancelada.
+
+Variantes:
+10.1: À vista:
+	10.1.1: O valor total é gerado e informado ao usuário. Volte para o passo 11.
+10.2: À prazo:
+	10.2.1: O usuário informa ao sistema a quantidade de prestações a serem pagas.
+	10.2.1: Os valores por parcela e total são informados ao usuário. Volte para o passo 11.

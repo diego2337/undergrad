@@ -1,0 +1,97 @@
+CREATE TABLE aluno
+(
+  Id_aluno integer NOT NULL CONSTRAINT firstkey PRIMARY KEY,
+  Nome_aluno varchar(40) NOT NULL DEFAULT 'NP',
+  Sexo_aluno char(1) NOT NULL CHECK (Sexo_aluno <> 'M' OR Sexo_aluno <> 'F'),
+  Dt_nasc timestamp,
+  Dt_alter_tab timestamp NOT NULL DEFAULT now(),
+  Observacoes varchar(250)
+);
+INSERT INTO Aluno (Id_aluno, Sexo_aluno) VALUES (1, 'X');
+--Obs: Inserção normal.
+
+INSERT INTO Aluno (Id_aluno, Sexo_aluno) VALUES (1, 'M');
+--Obs: ERROR:  duplicate key value violates unique constraint "firstkey"
+Key (id_aluno)=(1) already exists.
+INSERT INTO Aluno (Id_aluno, Sexo_aluno) VALUES (1, 'F');
+ERROR:  duplicate key value violates unique constraint "firstkey"
+DETAIL:  Key (id_aluno)=(1) already exists.
+ALTER TABLE aluno ADD COLUMN Cod_sit_aluno integer;
+--Obs: ALTER TABLE (Inserção normal)
+ALTER TABLE aluno ADD COLUMN Id_curso integer;
+--Obs: ALTER TABLE (Inserção normal)
+
+CREATE TABLE curso
+(
+  Id_curso integer NOT NULL,
+  Nome_curso varchar(30) NOT NULL,
+  Dt_implantacao timestamp NOT NULL,
+  Dt_alteracao timestamp DEFAULT now()
+);
+
+CREATE TABLE
+--Obs: Inserção normal.
+
+CREATE TABLE situacao_aluno
+(
+  Cod_sit_aluno integer NOT NULL,
+  Desc_sit_aluno varchar(30) NOT NULL,
+  Dt_alteracao timestamp DEFAULT now()
+);
+
+CREATE TABLE
+--Obs: Inserção normal.
+
+ALTER TABLE situacao_aluno ADD PRIMARY KEY (Cod_sit_aluno);
+NOTICE:  ALTER TABLE / ADD PRIMARY KEY will create implicit index "situacao_aluno_pkey" for table "situacao_aluno"
+--Obs: Alteração necessária para se fazer constraint.
+
+ALTER TABLE aluno ADD CONSTRAINT codfk FOREIGN KEY (Cod_sit_aluno) REFERENCES situacao_aluno (Cod_sit_aluno);
+--Obs: Após a alteração acima, essa instrução pôde ser executada com sucesso.
+
+/* Banco do SQLFiddle */
+/* --------------------------------------------------------------- */
+CREATE TABLE curso
+(
+  Id_curso integer NOT NULL PRIMARY KEY,
+  Nome_curso varchar(30) NOT NULL,
+  Dt_implantacao timestamp NOT NULL,
+  Dt_alteracao timestamp DEFAULT now()
+);
+CREATE TABLE aluno
+(
+  Id_aluno integer NOT NULL PRIMARY KEY,
+  Nome_aluno varchar(40) NOT NULL DEFAULT 'NP',
+  Sexo_aluno char(1) NOT NULL CHECK (Sexo_aluno <> 'M' OR Sexo_aluno <> 'F'),
+  Dt_nasc timestamp,
+  Dt_alter_tab timestamp NOT NULL DEFAULT now(),
+  Observacoes varchar(250),
+  Id_curso integer REFERENCES curso (Id_curso),
+  Cod_sit_aluno integer REFERENCES situacao_aluno (Cod_sit_aluno)
+);
+CREATE TABLE situacao_aluno
+(
+  Cod_sit_aluno integer NOT NULL PRIMARY KEY,
+  Desc_sit_aluno varchar(30) NOT NULL,
+  Dt_alteracao timestamp DEFAULT now()
+);
+INSERT INTO aluno (Id_aluno, Nome_aluno, Sexo_aluno, Id_curso, Cod_sit_aluno) VALUES (01, "José Asdrubal", "M", 01, 05);
+INSERT INTO aluno (Id_aluno, Nome_aluno, Sexo_aluno, Id_curso, Cod_sit_aluno) VALUES (02, "Maria Antonieta", "F", 01, 01);
+INSERT INTO aluno (Id_aluno, Nome_aluno, Sexo_aluno, Id_curso, Cod_sit_aluno) VALUES (03, "Flávio José", "M", 02, 01);
+/* --------------------------------------------------------------- */
+
+Consultas:
+
+SELECT * from aluno where Sexo_aluno='M';
+SELECT * from aluno where Sexo_aluno='F';
+SELECT COUNT(*) from aluno;
+SELECT COUNT(*) from aluno WHERE aluno.Sexo_aluno='M';
+SELECT COUNT(*) from aluno WHERE aluno.Sexo_aluno='F';
+SELECT COUNT(Id_aluno) FROM aluno GROUP BY Id_curso;
+SELECT COUNT(Id_aluno) FROM aluno GROUP BY Cod_sit_aluno, Id_curso;
+
+Recuperação de informações do catálogo PostGreSQL:
+	Utilizando-se do prefixo "pg_", pode-se acessar o conjunto de metadados gravado no SGBD (com a definição de uma visão já imposta 
+sobre o banco). O comando "pg_attribute attname", por exemplo, retorna o nome da coluna, ao passo que "pg_tables tablename" retorna o nome 
+de uma tabela.
+

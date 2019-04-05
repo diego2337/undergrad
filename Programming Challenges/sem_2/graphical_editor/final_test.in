@@ -1,0 +1,609 @@
+I 25 25
+H 12 15 13 H
+F 7 3 I
+F 1 8 M
+K 19 2 4 23 L
+C
+V 20 6 18 W
+F 19 6 V
+F 6 20 V
+V 13 17 2 A
+F 22 20 H
+K 25 20 1 25 O
+F 14 25 I
+H 8 18 1 Y
+S teste1.bmp
+S teste2.bmp
+H 20 3 5 E
+L 21 16 R
+V 12 5 3 J
+H 5 1 3 I
+S teste3.bmp
+C
+L 18 24 H
+F 2 7 L
+V 10 22 12 E
+L 3 9 E
+C
+K 17 17 10 24 H
+C
+S teste4.bmp
+F 19 11 S
+H 22 2 11 Z
+V 14 24 17 R
+C
+V 9 21 1 H
+F 6 1 V
+S teste5.bmp
+K 23 22 13 13 Y
+C
+H 12 21 20 C
+H 7 24 13 M
+L 6 17 N
+H 25 1 22 E
+S teste6.bmp
+F 15 19 K
+C
+F 21 8 A
+H 16 11 2 E
+S teste7.bmp
+C
+H 12 11 17 M
+V 23 14 4 M
+S teste8.bmp
+V 6 12 7 U
+H 15 21 12 Y
+S teste9.bmp
+C
+F 20 22 F
+H 17 20 23 Q
+F 3 2 Z
+H 15 20 25 F
+L 7 13 N
+H 1 12 4 L
+L 8 23 U
+S teste10.bmp
+L 12 9 G
+C
+F 16 15 Y
+L 6 1 L
+S teste11.bmp
+H 12 11 8 Z
+L 16 1 M
+V 15 16 5 O
+H 7 10 18 Y
+F 1 24 G
+K 19 12 21 21 S
+H 22 11 7 O
+F 15 23 E
+L 18 5 B
+V 19 7 6 F
+C
+K 2 25 23 21 I
+V 6 8 11 H
+C
+V 15 9 15 Z
+S teste12.bmp
+C
+F 7 7 U
+V 18 16 13 F
+K 12 1 14 10 R
+K 22 12 12 7 W
+K 8 6 8 18 Q
+L 17 10 K
+C
+C
+V 11 23 22 R
+F 21 15 U
+S teste13.bmp
+F 19 14 F
+S teste14.bmp
+K 13 1 16 22 T
+H 17 6 9 U
+C
+S teste15.bmp
+V 10 18 23 R
+F 23 20 E
+K 20 9 21 5 S
+C
+C
+K 11 25 11 3 A
+L 25 16 S
+H 1 18 25 V
+K 17 11 11 8 N
+C
+H 2 2 6 U
+V 10 10 18 G
+S teste16.bmp
+F 4 22 W
+F 23 9 S
+V 11 20 9 B
+H 12 11 11 N
+F 6 2 R
+C
+C
+H 25 9 21 I
+F 24 3 B
+F 25 17 W
+H 2 20 19 A
+C
+S teste17.bmp
+H 4 6 13 Z
+H 14 21 3 S
+V 2 24 20 W
+H 11 22 8 J
+H 10 12 22 E
+K 18 13 16 11 C
+L 17 12 R
+C
+F 4 1 N
+K 7 4 6 17 C
+S teste18.bmp
+L 21 25 Q
+L 19 14 Z
+H 6 21 14 Y
+H 3 10 4 Q
+H 17 7 20 S
+H 20 9 17 D
+F 16 15 A
+C
+L 6 10 L
+K 17 12 12 5 G
+V 7 10 8 Z
+F 24 17 W
+S teste19.bmp
+C
+V 20 15 18 Z
+H 6 3 20 W
+L 1 4 A
+K 11 12 20 18 L
+V 25 2 20 A
+V 2 17 16 N
+C
+K 19 1 11 1 S
+K 18 8 19 24 A
+F 5 6 E
+K 8 5 3 9 T
+C
+S teste20.bmp
+K 20 5 7 9 J
+K 9 24 3 13 M
+F 7 15 X
+F 10 24 U
+V 7 18 17 D
+K 19 24 1 22 Z
+V 20 13 24 L
+K 9 9 20 23 G
+K 4 6 2 12 F
+L 6 8 J
+V 23 21 20 V
+S teste21.bmp
+H 4 9 8 H
+H 16 8 18 E
+K 16 16 16 21 D
+L 8 15 S
+L 22 1 Z
+F 25 5 J
+S teste22.bmp
+C
+F 11 8 Q
+L 1 3 I
+C
+L 13 12 T
+H 2 10 3 I
+S teste23.bmp
+S teste24.bmp
+F 6 13 N
+H 11 14 21 W
+K 23 13 24 7 O
+V 7 13 6 T
+K 20 2 24 22 W
+C
+K 22 4 17 9 Q
+S teste25.bmp
+H 1 17 10 A
+V 10 23 1 G
+H 9 4 23 S
+H 17 1 13 J
+C
+V 2 3 9 Y
+V 15 9 15 Y
+V 11 5 17 Q
+H 14 10 6 K
+S teste26.bmp
+V 19 1 21 U
+V 11 25 12 K
+H 14 11 13 E
+L 18 10 P
+C
+K 9 12 3 22 V
+L 3 15 D
+C
+V 5 12 15 V
+S teste27.bmp
+H 8 14 4 I
+V 6 17 12 W
+F 16 7 L
+V 11 15 3 L
+L 20 20 O
+C
+S teste28.bmp
+C
+V 21 14 3 B
+S teste29.bmp
+F 19 18 T
+F 23 21 S
+S teste30.bmp
+K 12 21 14 4 R
+H 24 18 9 E
+V 2 7 5 S
+F 20 11 H
+K 4 13 9 16 G
+L 13 11 G
+S teste31.bmp
+L 1 4 U
+H 19 7 18 X
+V 14 6 14 X
+H 18 16 1 W
+S teste32.bmp
+H 22 17 12 Y
+H 16 17 4 I
+F 12 18 P
+K 10 17 1 25 M
+F 10 8 N
+S teste33.bmp
+L 17 17 M
+K 15 12 20 2 F
+H 9 1 11 J
+S teste34.bmp
+H 19 10 14 M
+H 13 11 2 V
+K 12 20 9 7 A
+L 3 22 V
+C
+S teste35.bmp
+V 8 16 13 U
+K 1 21 7 5 F
+V 2 2 8 S
+C
+H 9 17 12 K
+V 25 19 4 G
+F 20 17 B
+C
+H 1 20 14 Y
+C
+L 25 19 L
+S teste36.bmp
+K 19 9 19 4 J
+C
+F 3 9 F
+V 9 3 2 L
+V 5 10 3 C
+S teste37.bmp
+V 19 21 16 N
+K 23 22 17 18 I
+V 21 8 19 B
+C
+K 11 17 12 13 D
+L 21 25 D
+C
+L 6 20 V
+C
+V 20 8 4 N
+C
+S teste38.bmp
+K 13 20 8 8 P
+S teste39.bmp
+S teste40.bmp
+F 12 22 Z
+H 9 5 6 K
+L 2 23 W
+S teste41.bmp
+S teste42.bmp
+F 9 22 H
+K 22 19 2 6 G
+C
+L 11 14 E
+V 24 21 17 B
+H 21 13 15 D
+K 13 18 11 18 T
+L 4 23 G
+F 20 15 A
+F 18 4 T
+L 17 13 O
+S teste43.bmp
+K 7 24 14 5 Y
+F 12 4 U
+L 14 12 T
+S teste44.bmp
+H 5 4 2 W
+S teste45.bmp
+L 25 14 H
+S teste46.bmp
+S teste47.bmp
+H 14 9 4 S
+F 3 12 I
+H 7 18 8 I
+K 21 21 16 12 W
+K 13 2 15 4 J
+C
+H 5 24 9 B
+K 13 19 23 15 R
+H 6 22 25 L
+H 16 11 1 F
+H 12 15 21 B
+L 12 5 F
+F 1 3 M
+K 23 21 22 16 X
+V 24 14 18 K
+H 18 3 6 C
+C
+S teste48.bmp
+H 17 10 4 Y
+F 16 24 N
+C
+K 4 24 11 3 H
+V 19 16 21 X
+K 15 14 21 10 W
+H 24 23 21 I
+V 24 12 14 P
+C
+K 23 9 21 21 U
+H 18 4 19 J
+C
+F 14 16 I
+C
+F 11 15 N
+S teste49.bmp
+F 12 19 H
+F 7 1 K
+L 25 18 D
+H 14 18 15 O
+H 23 18 24 Q
+C
+L 22 9 I
+V 23 18 17 O
+V 10 20 2 V
+C
+C
+K 20 4 12 16 R
+S teste50.bmp
+L 10 18 O
+K 19 15 13 19 K
+C
+S teste51.bmp
+F 10 3 V
+C
+V 13 18 2 D
+K 7 19 3 25 F
+S teste52.bmp
+K 19 13 13 12 Z
+C
+V 14 23 1 C
+C
+L 17 22 M
+K 20 21 4 13 X
+L 1 6 F
+K 5 3 14 16 N
+V 4 8 4 O
+F 17 5 E
+S teste53.bmp
+S teste54.bmp
+K 16 21 7 5 B
+V 5 25 18 W
+V 21 10 12 J
+K 2 22 25 7 D
+L 14 23 V
+H 14 18 18 T
+V 13 1 17 S
+L 4 18 F
+S teste55.bmp
+K 25 23 15 24 C
+L 8 19 K
+S teste56.bmp
+L 22 17 G
+C
+F 24 1 Z
+H 19 5 3 H
+L 6 13 F
+H 6 15 17 W
+K 5 5 2 23 S
+H 15 4 18 L
+C
+K 18 22 5 19 V
+K 21 11 25 3 P
+S teste57.bmp
+F 1 12 B
+C
+L 4 25 I
+C
+S teste58.bmp
+H 13 10 23 M
+S teste59.bmp
+C
+S teste60.bmp
+K 6 20 18 16 Q
+H 18 19 3 S
+C
+F 10 24 Q
+S teste61.bmp
+C
+L 10 24 F
+K 13 18 13 20 L
+V 22 1 24 D
+K 8 24 9 3 M
+L 17 6 R
+F 22 22 V
+C
+L 6 11 R
+S teste62.bmp
+C
+C
+L 3 2 Y
+H 25 3 24 C
+V 25 1 15 D
+H 8 10 25 J
+F 23 21 F
+H 3 5 10 A
+K 14 9 13 17 L
+V 21 13 5 T
+K 16 23 6 7 N
+H 15 9 14 B
+V 12 25 12 I
+V 21 16 5 I
+V 17 2 12 G
+C
+V 23 23 7 F
+H 14 22 21 N
+C
+V 1 5 3 H
+S teste63.bmp
+K 5 12 11 22 Y
+S teste64.bmp
+F 9 25 Y
+H 10 1 25 J
+S teste65.bmp
+L 7 12 Z
+H 22 20 2 E
+K 6 15 6 22 G
+S teste66.bmp
+F 17 9 X
+L 18 7 R
+K 11 22 9 4 Z
+F 10 23 S
+C
+S teste67.bmp
+V 21 21 16 C
+K 23 23 5 17 M
+H 25 13 12 N
+C
+S teste68.bmp
+F 24 11 E
+F 22 20 P
+C
+C
+H 16 6 5 B
+H 6 23 20 Y
+H 12 25 13 W
+V 6 21 1 V
+H 1 7 15 W
+H 11 18 25 O
+L 17 8 W
+C
+F 2 25 O
+L 12 5 X
+C
+C
+L 5 1 G
+L 21 8 P
+V 14 6 19 K
+C
+V 7 16 4 M
+F 20 12 B
+C
+S teste69.bmp
+H 21 23 9 O
+V 4 9 15 B
+K 24 2 5 13 H
+L 3 16 B
+C
+S teste70.bmp
+H 3 20 8 K
+L 1 7 J
+K 17 9 12 6 N
+L 20 20 F
+V 22 9 8 Q
+L 10 21 N
+K 5 14 6 24 P
+S teste71.bmp
+L 24 12 I
+L 3 2 X
+C
+V 7 5 9 N
+L 7 20 V
+H 5 18 7 L
+V 1 17 14 O
+L 25 24 T
+L 19 7 C
+V 15 25 18 M
+K 25 23 9 11 U
+F 20 12 M
+F 12 24 C
+K 18 15 11 1 M
+H 12 25 15 P
+V 5 8 1 E
+S teste72.bmp
+H 4 18 13 U
+V 9 21 4 W
+F 18 14 U
+L 8 1 W
+V 7 2 22 S
+S teste73.bmp
+K 16 20 14 17 G
+F 16 7 J
+K 14 9 13 11 B
+C
+K 8 18 17 14 T
+F 8 9 H
+L 8 25 P
+V 21 1 17 Z
+H 7 4 16 X
+K 1 1 4 14 K
+C
+C
+L 1 12 R
+F 19 8 D
+F 14 4 I
+S teste74.bmp
+V 3 20 23 C
+S teste75.bmp
+K 19 17 21 19 O
+F 10 24 P
+H 22 13 21 S
+K 16 6 5 22 B
+F 2 24 I
+C
+F 8 25 P
+F 2 25 W
+S teste76.bmp
+C
+K 24 7 19 10 U
+V 11 13 7 L
+K 13 25 15 21 O
+H 9 5 16 E
+V 22 4 7 Y
+K 5 18 25 5 V
+C
+V 10 15 1 L
+K 6 18 11 7 H
+H 22 18 14 G
+F 17 10 H
+H 8 18 7 C
+V 12 24 13 F
+C
+V 21 15 21 A
+F 13 7 Y
+L 9 19 W
+H 7 19 16 B
+V 18 1 24 H
+F 12 25 P
+K 12 5 22 7 B
+S teste77.bmp
+L 24 6 R
+V 24 14 8 M
+S teste78.bmp
+S teste79.bmp
+L 17 25 P
+V 2 4 2 S
+K 19 18 11 5 B
+L 12 20 W
+H 20 25 6 P
+S teste80.bmp
+H 25 12 8 T
+V 9 2 19 D
+V 22 15 16 L
+V 22 4 10 E
+L 4 11 I
+C
+F 25 6 V
+X

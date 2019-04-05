@@ -1,0 +1,69 @@
+.formacao
+{
+	width: 300px;
+	padding: 10px;
+	border: 1.5px solid blue;
+	margin: 30px;
+	background-color: #b0c4de;
+}
+.interesse
+{
+	position: fixed;
+	width: 300px;
+	bottom: 0;
+	padding: 10px;
+	border: 1.5px solid blue;
+	margin: 30px;
+	background-color: #b0c4de;
+}
+.image
+{
+	position: fixed;
+	top: 50px;
+	right: 100px;
+	margin: 30px;
+}
+body 
+{
+	background-color: #FFFFCC;
+}
+h1
+{
+	color: green;
+}
+h1.center
+{
+	color: green;
+	position: fixed;
+	top: 10px;
+	right: 550px;
+	margin: 30px;
+}
+h1.free
+{
+
+}
+h2.uma
+{
+	color: #FFFF99;
+}
+h2.duas
+{
+	color: #339999;
+}
+body
+{
+	margin-left: 400px;
+	margin-right: 400px;
+}
+.termo
+{
+	position: fixed;
+	top: 50px;
+	right: 550px;
+	margin: 30px;
+	background-color: #999933;
+	width: 300px;
+	border: 1.5px solid blue;
+	margin: 30px;
+}

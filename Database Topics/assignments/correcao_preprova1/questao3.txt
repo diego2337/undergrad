@@ -1,0 +1,18 @@
+alter table automoveis add column renavam varchar(32) not null;
+
+ERRO:  coluna "renavam" contém valores nulos
+
+alter table automoveis add column renavam varchar(32);
+
+update automoveis set renavam='';
+
+alter table automoveis alter column renavam set not null;
+
+
+
+
+alter table automoveis alter column renavam drop not null;
+
+
+
+alter table automoveis drop column renavam;

@@ -1,0 +1,41 @@
+.index
+{
+  background-image: url('../imagens/Abstract Blue backgrounds.jpg');
+}
+
+.e404
+{
+  background-image: url('../imagens/Red-Background-no-logo.png'); 
+}
+
+.side
+{
+  float:left;
+  margin-right:20px;
+}
+
+.side2
+{
+  float:left;
+  margin-right: 100px;
+}
+
+.right-float
+{
+  float:right;
+}
+
+.center
+{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.form 
+{  
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius:1em;
+  filter:alpha(opacity=95); 
+  opacity:0.95;   
+}

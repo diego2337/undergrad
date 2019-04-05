@@ -1,0 +1,29 @@
+﻿Aluno: Diego Silva Cintra 							RGA: 2012.1904.003-7
+
+Questões sobre atividade – Packet Tracer
+
+Q1: Após o segundo passo, o que aconteceu com o pacote?
+
+	R: O pacote foi enviado para não só a máquina destinatária, como também a todas as outras máquinas interligadas ao HUB. Aquelas que não têm, no cabeçalho, o endereço de destino igual ao seu simplesmente descartaram a mensagem.
+
+Q2: O que aconteceu novamente? 
+
+	R: Novamente, o pacote de resposta foi encaminhado para todas as máquinas interligadas ao HUB, onde, nas máquinas que não têm associado seu endereço IP ao endereço origem do cabeçalho descartaram a mensagem.
+
+Q3: O que aconteceu com as mensagens enviadas? Elas chegaram com sucesso? Explique o porquê.
+
+	R: Nessa situação, o PC0 enviou sua mensagem ao mesmo tempo em que o PC2 enviou a sua, o que gerou uma colisão no HUB (que tentou propagar ambas as mensagens para toda a rede). Dado isso, apenas o sinal de colisão foi retransmitido, e a mensagem do PC1 foi descartada.
+
+Q4: O que aconteceu nessa simulação? Explique
+
+	R: Em um primeiro momento, podemos ver que a tabela contendo todos os endereços físicos (MAC) das máquinas a ele conectadas não está preenchida; logo, no envio de uma mensagem de PC0 para PC2, o “switch” irá atuar como um HUB, enviando a mensagem a todas as máquinas conectadas a ele. Naturalmente, aqueles que não estão no endereço de destino descartam a mensagem, e no envio da resposta de PC2 para PC0, sabendo em qual porta esse último se encontra (pois a tabela com o endereço físico dele foi preenchida), o switch é capaz de filtrar o envio da mensagem somente para a porta específica.
+
+Q5: O envio das três mensagens foi bem sucedido? O que ocorreu?
+
+	R: Considerando que, da questão anterior, a tabela com os endereços físicos já foi preenchida, as mensagens, apesar de enviadas simultaneamente, conseguiram ser enviadas para suas respectivas portas, sem haver nenhuma colisão no processo.
+
+Q6: Como o switch tratou este envio?
+
+	R: Nesse caso, apesar do endereço de destino ser o mesmo, uma das mensagens (nesse exemplo, o PC2) é armazenada em um buffer no switch, enquanto a outra (de PC0) é enviada até o destino. Quando a resposta de PC1 é encaminhada ao PC0, sendo um cabo do tipo “full-duplex”, a mensagem de PC2 que estava em espera é, simultaneamente, encaminhada ao PC1. O restante da execução é feita naturalmente, sem ocorrer qualquer colisão – PC1 recebe a mensagem de PC2, e envia a resposta.
+
+

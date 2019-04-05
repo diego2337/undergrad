@@ -1,0 +1,45 @@
+CREATE DOMAIN sex AS CHAR(1) NOT NULL CHECK (VALUE IN ('M', 'F'));
+CREATE DOMAIN positivo AS INTEGER CHECK (VALUE >= 0);
+
+CREATE TABLE Automoveis
+(
+	codigo positivo NOT NULL,
+	fabricante VARCHAR(100),
+	modelo VARCHAR(100),
+	ano positivo NOT NULL,
+	pais VARCHAR(100) DEFAULT 'Brasil',
+	preco_tabela positivo NOT NULL,
+	PRIMARY KEY (codigo, ano)
+);
+
+CREATE TABLE Revendedoras
+(
+	cgc positivo NOT NULL PRIMARY KEY,
+	nome VARCHAR(300) NOT NULL,
+	nome_proprietario VARCHAR(300),
+	cidade VARCHAR(100) DEFAULT 'Sao Paulo',
+	estado VARCHAR(100) DEFAULT 'Sao Paulo'
+);
+
+CREATE TABLE Consumidores
+(
+	identidade positivo NOT NULL PRIMARY KEY,
+	nome VARCHAR(300) NOT NULL,
+	sobrenome VARCHAR(300),
+	sexo sex 
+);
+
+CREATE TABLE Negocios
+(
+	id_negocio SERIAL NOT NULL PRIMARY KEY,
+	identidade_consumidor positivo NOT NULL,
+	cgc_revenda positivo NOT NULL,
+	codigo_auto positivo NOT NULL,
+	ano_auto positivo NOT NULL,
+	data TIMESTAMP NOT NULL,
+	preco positivo NOT NULL
+	identidade_consumidor REFERENCES Consumidores (identidade),
+	cgc_revenda REFERENCES Revendedoras (cgc),
+	codigo_auto REFERENCES Automoveis (codigo)	
+);
+

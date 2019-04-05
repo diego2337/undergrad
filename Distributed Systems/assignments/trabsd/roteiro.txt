@@ -1,0 +1,6 @@
+Caso queira executar o H2S3 sem a utilização do link http://goo.gl/OIP2o6, a seguinte sequência de passos deve ser realizada:
+	- Assumindo uma distribuição UNIX, deve-se mover a pasta "trabsd" para a pasta "var/www" (ou, em versões mais recentes, a pasta "var/www/html");
+	- Utilize o arquivo "TrabalhoSD.sql" para instanciar um banco de dados contendo o superusuário. Para fazê-lo, é necessário ter o MySQL instalado e o phpmyadmin. Nessa segunda aplicação (acessível por "localhost/phpmyadmin"), vá na guia "Importar", logo na página inicial, e escolha o arquivo previamente selecionado. Clique em "OK", e a pasta será instanciada;
+	- Será necessário arrumar o arquivo "DBPDO.php" também - mais precisamente, na linha 12, altere o terceiro argumento do construtor "PDO" para a senha de acesso ao seu banco.
+
+Com isso, é possível testar a aplicação localmente. 

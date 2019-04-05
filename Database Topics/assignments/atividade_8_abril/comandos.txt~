@@ -1,0 +1,447 @@
+Esses foram os comandos inseridos no banco "dbEx2_201219040037".
+
+1) Criação do banco de dados "db_atividade_08_04":
+
+createdb -T template0 -E UTF-8 dbEx2_201219040037 -U 201219040037 -W
+
+Após sua inserção, a senha foi requisitada, e após a autorização dessa o banco foi criado.
+
+2) Criação do esquema "Dinner":
+
+CREATE SCHEMA Dinner;
+
+Após sua inserção, a mensagem retornada foi:
+CREATE SCHEMA
+
+3) Alteração do esquema corrente - de "public" para "Dinner":
+
+SET search_path = Dinner;
+
+Após sua inserção, a mensagem retornada foi:
+SET
+
+4) Criação de um domínio:
+
+CREATE DOMAIN positivo AS INTEGER NOT NULL CHECK (VALUE >= 0);
+
+Após sua inserção, a mensagem retornada foi:
+CREATE DOMAIN
+
+
+5) Criação da tabela "Funcionarios":
+
+CREATE TABLE Funcionario
+(
+  Mat_trabalho SERIAL NOT NULL PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  idade INTEGER NOT NULL CHECK (idade >= 18 AND idade <= 100),
+  sexo CHAR(1) NOT NULL CHECK (sexo IN ('M', 'F')),
+  bairro VARCHAR(100),
+  numero INTEGER,
+  rua VARCHAR(100),
+  salario INTEGER NOT NULL CHECK (salario >= 0),
+  cargo VARCHAR(100) NOT NULL
+);
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "funcionario_mat_trabalho_seq" for serial column "funcionario.mat_trabalho"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "funcionario_pkey" for table "funcionario"
+CREATE TABLE
+
+6) Criação da tabela "Estoque":
+
+CREATE TABLE Estoque
+(
+  S_id SERIAL NOT NULL PRIMARY KEY,
+  tipo_mantimento VARCHAR(100) NOT NULL DEFAULT 'Utensílio',
+  num_local INTEGER NOT NULL DEFAULT 1,
+  qtde INTEGER DEFAULT 1 CHECK (qtde >= 0)
+);
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "estoque_s_id_seq" for serial column "estoque.s_id"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "estoque_pkey" for table "estoque"
+CREATE TABLE
+
+7) Criação da tabela "Ingrediente":
+
+CREATE TABLE Ingrediente
+(
+  I_id SERIAL NOT NULL PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  descricao VARCHAR(300),
+  preco INTEGER NOT NULL CHECK (preco >= 0),
+  S_id INTEGER REFERENCES Estoque (S_id)
+);
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "ingrediente_i_id_seq" for serial column "ingrediente.i_id"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "ingrediente_pkey" for table "ingrediente"
+CREATE TABLE
+
+8) Criação da tabela "Mesa":
+
+CREATE TABLE Mesa
+(
+  Num_mesa SERIAL NOT NULL PRIMARY KEY,
+  qtde_pessoas INTEGER NOT NULL DEFAULT 1 CHECK (qtde_pessoas >= 0),
+  area_livre CHAR(1) NOT NULL DEFAULT 'N' CHECK (area_livre IN ('N', 'S')),
+  Mat_trabalho INTEGER REFERENCES Funcionario (Mat_trabalho)
+);
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "mesa_num_mesa_seq" for serial column "mesa.num_mesa"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "mesa_pkey" for table "mesa"
+CREATE TABLE
+
+9) Criação da tabela "Pagamento":
+
+CREATE TABLE Pagamento 
+(
+  P_id SERIAL NOT NULL PRIMARY KEY,
+  data TIMESTAMP,
+  forma_pgmnto CHAR(1) NOT NULL,
+  valor INTEGER NOT NULL CHECK (valor > 0),
+  Num_mesa INTEGER REFERENCES Mesa (Num_mesa)
+);
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "pagamento_p_id_seq" for serial column "pagamento.p_id"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "pagamento_pkey" for table "pagamento"
+CREATE TABLE
+
+10) Criação da tabela "Cardapio":
+
+  CREATE TABLE Cardapio
+  (
+    C_id SERIAL NOT NULL PRIMARY KEY,
+    tipo_prato VARCHAR(20) NOT NULL DEFAULT 'Massas',
+    nome_prato VARCHAR(300) NOT NULL DEFAULT 'Prato sem nome',
+    descricao VARCHAR(300) NOT NULL DEFAULT 'Nenhum registro a respeito desse prato',
+    preco positivo
+  );
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "cardapio_c_id_seq" for serial column "cardapio.c_id"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "cardapio_pkey" for table "cardapio"
+CREATE TABLE
+
+-- Obs: A utilização do domínio "positivo" só foi aplicada a partir da tabela "Cardapio" pois sua concepção foi dada aqui.
+
+11) Criação do índice Tipo na tabela Cardapio:
+
+CREATE INDEX Tipo ON Cardapio (tipo_prato);
+
+Após sua inserção, a mensagem retornada foi:
+CREATE INDEX
+
+12) Criação da tabela "Pedido":
+
+CREATE TABLE Pedido
+(
+  O_id SERIAL NOT NULL PRIMARY KEY,
+  qtde_pratos positivo,
+  observacoes VARCHAR(300),
+  valor_total positivo, 
+  data_pedido TIMESTAMP,
+  C_id INTEGER REFERENCES Cardapio (C_id)
+);
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "pedido_o_id_seq" for serial column "pedido.o_id"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "pedido_pkey" for table "pedido"
+CREATE TABLE
+
+13) Criação da tabela "Reserva":
+
+CREATE TABLE Reserva
+(
+  R_id SERIAL NOT NULL PRIMARY KEY,
+  qtde_pessoas_reserva positivo,
+  data_reserva TIMESTAMP,
+  Num_mesa INTEGER REFERENCES Mesa (Num_mesa)
+);
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "reserva_r_id_seq" for serial column "reserva.r_id"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "reserva_pkey" for table "reserva"
+CREATE TABLE
+
+14) Criação da tabela "Ingrediente_compoe_cardapio":
+
+CREATE TABLE Ingrediente_compoe_cardapio
+(
+  ICC_id SERIAL NOT NULL PRIMARY KEY,
+  C_id INTEGER REFERENCES Cardapio (C_id),
+  I_id INTEGER REFERENCES Ingrediente(I_id)
+);
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "ingrediente_compoe_cardapio_icc_id_seq" for serial column "ingrediente_compoe_cardapio.icc_id"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "ingrediente_compoe_cardapio_pkey" for table "ingrediente_compoe_cardapio"
+CREATE TABLE
+
+15) Criação da tabela "Cardapio_compoe_pedido":
+
+CREATE TABLE Cardapio_compoe_pedido
+(
+  CCP_id SERIAL NOT NULL PRIMARY KEY,
+  O_id INTEGER REFERENCES Pedido (O_id),
+  C_id INTEGER REFERENCES Cardapio (C_id)
+);
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "cardapio_compoe_pedido_ccp_id_seq" for serial column "cardapio_compoe_pedido.ccp_id"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "cardapio_compoe_pedido_pkey" for table "cardapio_compoe_pedido"
+CREATE TABLE
+
+16) Criação da tabela "Funcionario_atende_pedido":
+
+CREATE TABLE Funcionario_atende_pedido
+(
+  FAP_id SERIAL NOT NULL PRIMARY KEY,
+  Mat_trabalho INTEGER REFERENCES Funcionario (Mat_trabalho),
+  O_id INTEGER REFERENCES Pedido (O_id)
+);
+
+Após sua inserção, a mensagem retornada foi:
+NOTICE:  CREATE TABLE will create implicit sequence "funcionario_atende_pedido_fap_id_seq" for serial column "funcionario_atende_pedido.fap_id"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "funcionario_atende_pedido_pkey" for table "funcionario_atende_pedido"
+CREATE TABLE
+
+17) Definição da linguagem "plpgsql" para implementação de um procedimento armazenado:
+
+- De dentro do terminal:
+  create language plpgsql;
+  Após sua inserção, a mensagem retornada foi:
+  ERROR:  language "plpgsql" already exists
+
+- De fora do sql:
+  createlang -U 201219040037 -W -e plpgsql dbEx2_201219040037
+  Após sua inserção e autorização com a inserção da senha, a mensagem retornada foi:
+  SELECT oid FROM pg_catalog.pg_language WHERE lanname = 'plpgsql';
+  createlang: language "plpgsql" is already installed in database "dbEx2_201219040037"
+
+18) Criação de um procedimento armazenado:
+
+CREATE FUNCTION fnPessoasReserva() RETURNS TRIGGER AS 
+$BODY$
+  BEGIN
+    IF NEW.data_reserva < now() THEN
+      RAISE EXCEPTION 'A data de reserva antecede a data atual';
+    END IF;
+    RETURN NEW;
+  END;
+$BODY$ LANGUAGE plpgsql;
+
+Após sua inserção, a mensagem retornada foi:
+CREATE FUNCTION
+
+19) Criação de uma trigger:
+
+CREATE TRIGGER tReserva BEFORE INSERT OR UPDATE ON
+Reserva FOR EACH ROW EXECUTE PROCEDURE fnPessoasReserva();
+
+Após sua inserção, a mensagem retornada foi:
+CREATE TRIGGER
+
+-- Obs: Ao tentar executar o seguinte comando:
+
+INSERT INTO Dinner.Reserva (qtde_pessoas_reserva, data_reserva, num_mesa) VALUES (3, '2004-01-06 09:19:21', 7);
+
+A mensagem retornada é:
+ERROR:  A data de reserva antecede a data atual
+
+O que comprova que a função "fnPessoasReserva" foi ativada antes da inserção, e nada foi inserido.
+
+20) Realização de um DUMP no banco de dados "dbEx2_201219040037":
+
+pg_dump --inserts -Fp dbEx2_201219040037 -U 201219040037 -W > /home/201219040037/dbEx2_201219040037.sql 
+
+Após sua inserção, a senha foi requisitada, e após a autorização todas as operações demonstradas nesse documento foram armazenadas no arquivo "dbEx2_201219040037.sql".
+
+21) Deletando o banco de dados "dbEx2_201219040037":
+
+dropdb dbEx2_201219040037 -U 201219040037 -W
+
+Após sua inserção, a senha foi requisitada, e após a autorização o banco foi removido.
+
+22) Criando um banco vazio com o mesmo nome do anterior ("dbEx2_201219040037"):
+
+createdb -T template0 -E UTF-8 dbEx2_201219040037 -U 201219040037 -W
+
+23) Restaurando o banco de dados a partir do arquivo "dbEx2_201219040037.sql":
+
+psql -d dbEx2_201219040037 -U 201219040037 -W < /home/201219040037/dbEx2_201219040037.sql
+
+Após sua inserção, a senha foi requisitada, e após a autorização a mensagem retornada foi:
+
+SET
+SET
+SET
+SET
+SET
+CREATE SCHEMA
+ALTER SCHEMA
+CREATE EXTENSION
+ERROR:  must be owner of extension plpgsql
+SET
+CREATE DOMAIN
+ALTER DOMAIN
+CREATE FUNCTION
+ALTER FUNCTION
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+CREATE INDEX
+CREATE TRIGGER
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+WARNING:  no privileges could be revoked for "public"
+REVOKE
+WARNING:  no privileges could be revoked for "public"
+REVOKE
+WARNING:  no privileges were granted for "public"
+GRANT
+WARNING:  no privileges were granted for "public"
+GRANT

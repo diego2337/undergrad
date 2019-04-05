@@ -1,0 +1,83 @@
+No.     Time        Source                Destination           Protocol Length Info
+     20 5.378180    128.119.245.12        192.168.1.2           HTTP     446    HTTP/1.1 200 OK  (text/html)
+
+Frame 20: 446 bytes on wire (3568 bits), 446 bytes captured (3568 bits)
+    Arrival Time: Aug 29, 2014 13:41:38.296762000 AMT
+    Epoch Time: 1409334098.296762000 seconds
+    [Time delta from previous captured frame: 0.007290000 seconds]
+    [Time delta from previous displayed frame: 0.007290000 seconds]
+    [Time since reference or first frame: 5.378180000 seconds]
+    Frame Number: 20
+    Frame Length: 446 bytes (3568 bits)
+    Capture Length: 446 bytes (3568 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+
+Ethernet II, Src: KasdaDig_d6:cd:75 (00:0e:f4:d6:cd:75), Dst: HonHaiPr_fb:ae:4f (e0:06:e6:fb:ae:4f)
+    Destination: HonHaiPr_fb:ae:4f (e0:06:e6:fb:ae:4f)
+        Address: HonHaiPr_fb:ae:4f (e0:06:e6:fb:ae:4f)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: KasdaDig_d6:cd:75 (00:0e:f4:d6:cd:75)
+        Address: KasdaDig_d6:cd:75 (00:0e:f4:d6:cd:75)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.2 (192.168.1.2)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 432
+    Identification: 0x6acf (27343)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 46
+    Protocol: TCP (6)
+    Header checksum: 0xa94a [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 128.119.245.12 (128.119.245.12)
+    Destination: 192.168.1.2 (192.168.1.2)
+
+Transmission Control Protocol, Src Port: http (80), Dst Port: 42949 (42949), Seq: 1, Ack: 423, Len: 380
+    Source port: http (80)
+    Destination port: 42949 (42949)
+    [Stream index: 3]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 381    (relative sequence number)]
+    Acknowledgement number: 423    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 54
+    [Calculated window size: 6912]
+    [Window size scaling factor: 128]
+    Checksum: 0x912a [validation disabled]
+    Options: (12 bytes)
+        No-Operation (NOP)
+        No-Operation (NOP)
+        Timestamps: TSval 4169108980, TSecr 1014583
+    [SEQ/ACK analysis]
+        [Bytes in flight: 380]
+
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Date: Fri, 29 Aug 2014 17:41:38 GMT\r\n
+    Server: Apache/2.2.3 (CentOS)\r\n
+    Last-Modified: Fri, 29 Aug 2014 17:41:02 GMT\r\n
+    ETag: "8734b-51-2822a780"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 81\r\n
+    Keep-Alive: timeout=10, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+Line-based text data: text/html

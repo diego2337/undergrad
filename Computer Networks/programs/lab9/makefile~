@@ -1,0 +1,3 @@
+all:
+gcc -pthread -o server servidor_eco_multi.c
+gcc -pthread -o client cliente_eco_mono.c

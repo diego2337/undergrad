@@ -1,0 +1,122 @@
+.index
+{
+  background-color: khaki;
+  background-image: url('../img/cloud.jpg');
+}
+
+.404
+{
+  background-image: url('../img/Red-Background-no-logo.png'); 
+}
+
+.side
+{
+  float:left;
+  margin-right:20px;
+}
+
+.side2
+{
+	float:left;
+	margin-right: 100px;
+}
+
+.right-float
+{
+  float:right;
+}
+
+.center
+{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.form 
+{
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius:1em;
+  filter:alpha(opacity=95); 
+  opacity:0.95;  
+}
+
+.pipi
+{
+  float: left;
+  height: auto;
+}
+
+.pipi2
+{
+    height: auto; 
+    width: 560px; 
+    margin-right: 10px;
+    float: left;
+}
+
+.pipi3
+{
+  height: auto;
+  width: auto;
+  margin-left: 60px;
+  float: left;
+}
+
+.pipi4
+{
+  float: left;
+  width: 820px;
+  margin: 20px;
+}
+
+.pipi_right
+{
+  float:right;
+}
+
+.navegacao
+{
+  line-height:30px;
+  height:300px;
+  width:200px;
+  float:left;
+  padding:5px; 
+  margin:20px;
+}
+
+.container 
+{
+  display: table;
+  width: 100%;
+}
+
+.little_space
+{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.browsefile
+{
+  background-color: #F5FAFE;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+}
+
+.half_div
+{
+  height: auto;
+  width: 50px;
+  float: left;
+}
+
+.margin_down
+{
+  margin-right: 10px;
+}
